@@ -10509,7 +10509,6 @@ body {
   display: grid;
   grid-template-columns: 100vw;
   grid-template-rows: 15vh 95vh 15vh;
-  border: 20px solid #824CA7;
 }
 
 #homeWrapper #homeNavi {
@@ -10581,7 +10580,7 @@ body {
   left: 50vw;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: #B9C406;
+  color: #824CA7;
   font-size: 2.5rem;
   font-weight: bolder;
 }
@@ -10604,5 +10603,11 @@ body {
 #homeWrapper #homeIntro .introAction:hover {
   background: #D50B53;
   color: #F4F3F4;
+}
+
+@media screen and (max-width: 950px) {
+  .introText {
+    font-size: 1.8rem;
+  }
 }
 
