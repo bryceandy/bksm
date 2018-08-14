@@ -10546,6 +10546,8 @@ body {
   font-size: larger;
   text-decoration: none;
   padding-right: 30px;
+  text-underline-position: below;
+  -ms-text-underline-position: below;
 }
 
 #homeWrapper #homeNavi .nav-links a:hover {
@@ -10554,8 +10556,6 @@ body {
   text-decoration-style: solid;
   -moz-text-decoration-style: solid;
   -webkit-text-decoration-style: solid;
-  text-underline-position: below;
-  -ms-text-underline-position: below;
 }
 
 #homeWrapper #homeIntro {
