@@ -151,7 +151,8 @@ body{
   }
   #wwd{
     grid-area: 4/1/5/2;
-    background: $c5;
+    background: $c1;
+    z-index: -1;
 
     h1{
       color: $c2;

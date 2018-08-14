@@ -25,8 +25,7 @@
 
         <div id="waw">
             <h1 class="text-center">BK Sports Massage</h1>
-            <h2 class="text-muted text-center">Road to Recovery</h2>
-            <p class="col-sm-10 col-md-6 col-lg-4">
+            <p class="col-10">
                 BK Sports Massage is a name synonymous with wellness, comfort and rejuvenation. This Heritage Sports massage & Spa offers you a chance to let us release your tension with various kinds of massages, body treatments, scrubs, body wrap, facials ManiPedi treatments and other packages.
             </p>
         </div>

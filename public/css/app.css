@@ -10613,7 +10613,8 @@ body {
 
 #homeWrapper #wwd {
   grid-area: 4/1/5/2;
-  background: #B9C406;
+  background: #D50B53;
+  z-index: -1;
 }
 
 #homeWrapper #wwd h1 {
