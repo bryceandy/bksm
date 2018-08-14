@@ -10508,7 +10508,8 @@ body {
   left: 0;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 15vh 95vh 15vh;
+  grid-template-rows: 15vh 95vh 50vh 110vh 15vh;
+  border: 20px solid #F4F3F4;
 }
 
 #homeWrapper #homeNavi {
@@ -10602,6 +10603,20 @@ body {
 
 #homeWrapper #homeIntro .introAction:hover {
   background: #D50B53;
+  color: #F4F3F4;
+}
+
+#homeWrapper #waw {
+  grid-area: 3/1/4/2;
+  color: #824CA7;
+}
+
+#homeWrapper #wwd {
+  grid-area: 4/1/5/2;
+  background: #B9C406;
+}
+
+#homeWrapper #wwd h1 {
   color: #F4F3F4;
 }
 

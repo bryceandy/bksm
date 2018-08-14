@@ -14,7 +14,7 @@ var typer = new TypeIt('.introText', {
     .break()
     .type('sports massage, deep tissue, cupping therapy')
     .break()
-    .type('swedesh, thai, prenatal, hot stone massages')
+    .type('Swedesh, Thai, prenatal, hot stone massages')
     .pause(5000)
     .options({speed: 10})
     .delete()
