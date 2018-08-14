@@ -3,9 +3,9 @@ var typer = new TypeIt('.introText', {
     speed: 150,
     autoStart: true
 })
-    .type('Welcome To')
+    .type('Welcome')
     .break()
-    .type('BK Sports Massage')
+    .type('to BK Sports Massage')
     .pause(5000)
     .options({speed: 10})
     .delete()
@@ -13,10 +13,12 @@ var typer = new TypeIt('.introText', {
     .type('We offer a wide range of services, such as...')
     .break()
     .type('sports massage, deep tissue, cupping therapy')
+    .break()
+    .type('swedesh, thai, prenatal, hot stone massages')
     .pause(5000)
     .options({speed: 10})
     .delete()
     .options({speed: 150})
-    .type('hot stone, body slimming massage, and many others...')
+    .type('body slimming, scrubs, facials, waxing and many more...')
     .break()
-    .type('book us now.');
+    .type('Book Us Now.');

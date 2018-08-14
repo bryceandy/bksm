@@ -10550,6 +10550,13 @@ body {
 
 #homeWrapper #homeNavi .nav-links a:hover {
   opacity: 0.7;
+  text-decoration: underline;
+  text-decoration-color: #B9C406;
+  -moz-text-decoration-color: #B9C406;
+  -webkit-text-decoration-color: #B9C406;
+  text-decoration-style: solid;
+  -moz-text-decoration-style: solid;
+  -webkit-text-decoration-style: solid;
 }
 
 #homeWrapper #homeIntro {
@@ -10575,8 +10582,8 @@ body {
   left: 50vw;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: #F4F3F4;
-  font-size: xx-large;
+  color: #B9C406;
+  font-size: 2.5rem;
   font-weight: bolder;
 }
 
@@ -10589,6 +10596,7 @@ body {
   font-size: xx-large;
   border: 2px solid #D50B53;
   border-radius: 3px;
+  background: unset;
   color: #D50B53;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
