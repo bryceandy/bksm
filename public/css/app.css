@@ -10575,8 +10575,8 @@ body {
   left: 50vw;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: #D50B53;
-  font-size: large;
+  color: #F4F3F4;
+  font-size: xx-large;
   font-weight: bolder;
 }
 
@@ -10587,15 +10587,15 @@ body {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   font-size: xx-large;
-  border: 1px solid #824CA7;
+  border: 2px solid #D50B53;
   border-radius: 3px;
-  color: #824CA7;
+  color: #D50B53;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 #homeWrapper #homeIntro .introAction:hover {
-  background: #824CA7;
+  background: #D50B53;
   color: #F4F3F4;
 }
 
