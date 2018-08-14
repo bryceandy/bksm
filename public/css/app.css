@@ -10545,8 +10545,8 @@ body {
   font-size: larger;
   text-decoration: none;
   padding-right: 30px;
-  text-underline-position: below;
-  -ms-text-underline-position: below;
+  text-underline-position: under;
+  -ms-text-underline-position: under;
 }
 
 #homeWrapper #homeNavi .nav-links a:hover {
