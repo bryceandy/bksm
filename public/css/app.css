@@ -10493,7 +10493,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #A882C1;
+  background: #F4F3F4;
 }
 
 ::-webkit-scrollbar-button {
@@ -10509,7 +10509,7 @@ body {
   display: grid;
   grid-template-columns: 100vw;
   grid-template-rows: 15vh 95vh 15vh;
-  border: 10px solid #D50B53;
+  border: 10px solid #824CA7;
 }
 
 #homeWrapper #homeNavi {
@@ -10527,7 +10527,7 @@ body {
 
 #homeWrapper #homeNavi .logo a {
   font-size: xx-large;
-  color: #824CA7;
+  color: #D50B53;
   text-decoration: none;
   font-weight: 600;
 }
@@ -10542,17 +10542,14 @@ body {
 
 #homeWrapper #homeNavi .nav-links a {
   display: inline-block;
-  color: #824CA7;
+  color: #D50B53;
   font-size: larger;
   text-decoration: none;
   padding-right: 30px;
 }
 
 #homeWrapper #homeNavi .nav-links a:hover {
-  text-decoration: underline;
-  text-decoration-color: #B9C406;
-  -moz-text-decoration-color: #B9C406;
-  -webkit-text-decoration-color: #B9C406;
+  opacity: 0.7;
 }
 
 #homeWrapper #homeIntro {
@@ -10578,7 +10575,9 @@ body {
   left: 50vw;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: #824CA7;
+  color: #D50B53;
+  font-size: large;
+  font-weight: bolder;
 }
 
 #homeWrapper #homeIntro .introAction {
@@ -10587,8 +10586,16 @@ body {
   left: 50vw;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  font-size: large;
-  border: 1px solid #D50B53;
-  color: #D50B53;
+  font-size: xx-large;
+  border: 1px solid #824CA7;
+  border-radius: 3px;
+  color: #824CA7;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#homeWrapper #homeIntro .introAction:hover {
+  background: #824CA7;
+  color: #F4F3F4;
 }
 
