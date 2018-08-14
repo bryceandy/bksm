@@ -81,13 +81,12 @@ body{
         &:hover{
           opacity: 0.7;
           text-decoration: underline;
-          text-decoration-color: $c5;
-          -moz-text-decoration-color: $c5;
-          -webkit-text-decoration-color: $c5;
           text-decoration-style: solid;
           -moz-text-decoration-style: solid;
           -webkit-text-decoration-style: solid;
-
+          text-underline-position: below;
+          -ms-text-underline-position: below;
+        
         }
       }
     }

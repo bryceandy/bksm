@@ -10551,12 +10551,11 @@ body {
 #homeWrapper #homeNavi .nav-links a:hover {
   opacity: 0.7;
   text-decoration: underline;
-  text-decoration-color: #B9C406;
-  -moz-text-decoration-color: #B9C406;
-  -webkit-text-decoration-color: #B9C406;
   text-decoration-style: solid;
   -moz-text-decoration-style: solid;
   -webkit-text-decoration-style: solid;
+  text-underline-position: below;
+  -ms-text-underline-position: below;
 }
 
 #homeWrapper #homeIntro {
