@@ -10614,7 +10614,7 @@ body {
 }
 
 #homeWrapper #waw .para {
-  margin-left: 50vw;
+  margin-left: calc(50vw - 30px);
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   max-width: 100%;

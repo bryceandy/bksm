@@ -25,10 +25,10 @@
 
         <div id="waw">
             <h1 class="text-center">BK Sports Massage</h1>
-            <span class="para text-center">
+            <div class="para text-center">
                 BK Sports Massage is a name synonymous with wellness, comfort and rejuvenation. This Heritage Sports massage & Spa offers you a chance to let us release your tension with various kinds of massages, body treatments, scrubs, body wrap, facials ManiPedi treatments and other packages.
                 Our happiness lies in ensuring that we soothe you’re the soreness in your muscles, improve your sleep, boost the immune system function, increase mental alertness, ease the effects of cancer treatment, aid headache sufferers, alleviate depression and ultimately stress levels.
-            </span>
+            </div>
         </div>
 
         <div id="wwd">

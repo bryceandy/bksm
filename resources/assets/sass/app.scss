@@ -152,7 +152,7 @@ body{
     padding: 5vw;
     
     .para{
-      margin-left: 50vw;
+      margin-left: calc(50vw - 30px);
       -webkit-transform: translateX(-50%);
       -moz-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
