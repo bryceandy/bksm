@@ -113,6 +113,7 @@ body{
       position: absolute;
       top: 35vh;
       left:  calc(50vw - 20px);
+      padding-right: 30px;
       -webkit-transform: translate(-50%, -50%);
       -moz-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -126,6 +127,7 @@ body{
       position: absolute;
       top: 65vh;
       left: calc(50vw - 20px);
+      padding-right: 30px;
       -webkit-transform: translateX(-50%);
       -moz-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
@@ -176,15 +178,23 @@ body{
     grid-area: 4/1/5/2;
     background: $c5;
     z-index: -1;
-    padding: 3vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
 
     h1{
       color: $c2;
+      margin-left: -20px;
+      padding-right: 30px;
     }
   }
 }
 @media screen and (max-width: 950px){
   .introText{
     font-size: 1.8rem!important;
+  }
+}
+@media screen and (max-width: 800px){
+  .wawDelete{
+    display: none;
   }
 }

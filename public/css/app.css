@@ -10581,6 +10581,7 @@ body {
   position: absolute;
   top: 35vh;
   left: calc(50vw - 20px);
+  padding-right: 30px;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #824CA7;
@@ -10592,6 +10593,7 @@ body {
   position: absolute;
   top: 65vh;
   left: calc(50vw - 20px);
+  padding-right: 30px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   font-size: xx-large;
@@ -10634,16 +10636,25 @@ body {
   grid-area: 4/1/5/2;
   background: #B9C406;
   z-index: -1;
-  padding: 3vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
 }
 
 #homeWrapper #wwd h1 {
   color: #F4F3F4;
+  margin-left: -20px;
+  padding-right: 30px;
 }
 
 @media screen and (max-width: 950px) {
   .introText {
     font-size: 1.8rem !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wawDelete {
+    display: none;
   }
 }
 
