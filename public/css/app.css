@@ -10519,6 +10519,16 @@ body {
   position: relative;
 }
 
+#homeWrapper #homeNavi a[href^="tel:"] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-decoration: none;
+  color: #B9C406;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 #homeWrapper #homeNavi .logo {
   position: absolute;
   top: 50%;

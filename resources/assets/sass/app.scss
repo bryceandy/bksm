@@ -49,6 +49,18 @@ body{
     grid-area: 1/1/2/2;
     position: relative;
 
+    a[href^="tel:"]{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      text-decoration: none;
+      color: $c5;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
     .logo{
       position: absolute;
       top: 50%;

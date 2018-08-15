@@ -8,6 +8,9 @@
             <div class="logo">
                 <a href="/">BK</a>
             </div>
+
+            <a href="tel:+255786140987">Click to Call!</a>
+
             <div class="nav-links">
                 <a href="/" class="underline">Home</a>
                 <a href="/services">Services</a>
