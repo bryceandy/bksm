@@ -10677,36 +10677,43 @@ body {
   }
 
   .nav-links a {
-    display: none;
+    display: none !important;
   }
 
   .menu {
-    display: block;
+    display: block !important;
   }
 
   .nav-links.showMenu {
     height: 100vh;
     width: 100vw;
-    background: #D50B53;
-    position: fixed;
-    right: 0;
+    background: #A882C1;
+    position: fixed !important;
+    right: 0 !important;
     padding-top: 15vh;
+    z-index: 2;
   }
 
   .nav-links.showMenu a {
-    display: block;
-    font-size: 2rem;
+    display: block !important;
+    font-size: 2rem !important;
     color: #F4F3F4 !important;
     margin-left: 10vw;
   }
 
   .nav-links.showMenu .menu {
     margin-left: 85vw;
+    top: 15vh;
+    position: absolute;
   }
 
   .nav-links.showMenu .menu .ndChild {
     opacity: 0;
     visibility: hidden;
+  }
+
+  .nav-links.showMenu .menu .menubar {
+    background: #F4F3F4 !important;
   }
 
   .nav-links.showMenu .menu .menubar:nth-child(1) {
