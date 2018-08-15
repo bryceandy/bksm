@@ -9,7 +9,7 @@
                 <a href="/">BK</a>
             </div>
 
-            <a href="tel:+255786140987">CLICK TO CALL!</a>
+            <a href="tel:+255786140987">CLICK TO CALL <i class="fas fa-phone"></i></a>
 
             <div class="nav-links">
                 <a href="/" class="underline">Home</a>
