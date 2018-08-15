@@ -10580,7 +10580,7 @@ body {
   z-index: 1;
   position: absolute;
   top: 35vh;
-  left: 50vw;
+  left: calc(50vw - 20px);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #824CA7;
@@ -10591,7 +10591,7 @@ body {
 #homeWrapper #homeIntro .introAction {
   position: absolute;
   top: 65vh;
-  left: 50vw;
+  left: calc(50vw - 20px);
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   font-size: xx-large;
@@ -10612,11 +10612,18 @@ body {
   grid-area: 3/1/4/2;
   color: #824CA7;
   font-size: large;
-  padding: 5vw;
+  padding-top: 5vw;
+  padding-bottom: 10vw;
+}
+
+#homeWrapper #waw h1 {
+  margin-left: -20px;
+  paddin-right: 20px;
 }
 
 #homeWrapper #waw .para {
-  margin-left: 50vw;
+  margin-left: calc(50vw - 20px);
+  paddin-right: 20px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   max-width: 80%;

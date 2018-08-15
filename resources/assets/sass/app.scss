@@ -112,7 +112,7 @@ body{
       z-index: 1;
       position: absolute;
       top: 35vh;
-      left:  50vw;
+      left:  calc(50vw - 20px);
       -webkit-transform: translate(-50%, -50%);
       -moz-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -125,7 +125,7 @@ body{
     .introAction{
       position: absolute;
       top: 65vh;
-      left: 50vw;
+      left: calc(50vw - 20px);
       -webkit-transform: translateX(-50%);
       -moz-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
@@ -152,10 +152,17 @@ body{
     grid-area: 3/1/4/2;
     color: $c4;
     font-size: large;
-    padding: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 10vw;
+
+    h1{
+      margin-left: -20px;
+      paddin-right: 20px;
+    }
     
     .para{
-      margin-left: 50vw;
+      margin-left: calc(50vw - 20px);
+      paddin-right: 20px;
       -webkit-transform: translateX(-50%);
       -moz-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
