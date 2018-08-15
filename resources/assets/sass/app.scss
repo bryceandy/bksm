@@ -150,6 +150,15 @@ body{
     color: $c4;
     font-size: large;
     padding: 5vw;
+    
+    p{
+      margin-left: 40vw;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
   }
   #wwd{
     grid-area: 4/1/5/2;
@@ -158,7 +167,7 @@ body{
     padding: 3vw;
 
     h1{
-      color: $c1;
+      color: $c2;
     }
   }
 }

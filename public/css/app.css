@@ -10613,6 +10613,12 @@ body {
   padding: 5vw;
 }
 
+#homeWrapper #waw p {
+  margin-left: 40vw;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
 #homeWrapper #wwd {
   grid-area: 4/1/5/2;
   background: #B9C406;
@@ -10621,7 +10627,7 @@ body {
 }
 
 #homeWrapper #wwd h1 {
-  color: #D50B53;
+  color: #F4F3F4;
 }
 
 @media screen and (max-width: 950px) {
