@@ -10683,7 +10683,6 @@ body {
 
 @media screen and (max-width: 800px) {
   #homeNavi a[href^="tel:"] {
-    top: 50% !important;
     left: 50% !important;
   }
 
@@ -10706,7 +10705,6 @@ body {
     background: #A882C1;
     position: fixed !important;
     right: 0 !important;
-    top: 0 !important;
     padding-top: 15vh;
     z-index: 2;
   }
