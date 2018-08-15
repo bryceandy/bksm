@@ -112,7 +112,7 @@ body{
         color: $c1;
         font-size: larger;
         text-decoration: none;
-        padding-right: 30px;
+        padding-right: 20px;
         text-underline-position: under;
         -ms-text-underline-position: under;
 
@@ -146,7 +146,7 @@ body{
       position: absolute;
       top: 35vh;
       left:  calc(50vw - 20px);
-      padding-right: 30px;
+      padding-right: 20px;
       -webkit-transform: translate(-50%, -50%);
       -moz-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -161,7 +161,7 @@ body{
       position: absolute;
       top: 65vh;
       left: calc(50vw - 20px);
-      padding-right: 30px;
+      padding-right: 20px;
       -webkit-transform: translateX(-50%);
       -moz-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
@@ -193,12 +193,13 @@ body{
 
     h1{
       margin-left: -20px;
-      padding-right: 30px;
+      padding-right: 20px;
+      color: $c5!important;
     }
     
     .para{
       margin-left: calc(50vw - 20px);
-      padding-right: 30px;
+      padding-right: 20px;
       -webkit-transform: translateX(-50%);
       -moz-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
@@ -218,7 +219,7 @@ body{
     h1{
       color: $c2;
       margin-left: -20px;
-      padding-right: 30px;
+      padding-right: 20px;
     }
   }
 }

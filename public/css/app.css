@@ -10579,7 +10579,7 @@ body {
   color: #D50B53;
   font-size: larger;
   text-decoration: none;
-  padding-right: 30px;
+  padding-right: 20px;
   text-underline-position: under;
   -ms-text-underline-position: under;
 }
@@ -10613,7 +10613,7 @@ body {
   position: absolute;
   top: 35vh;
   left: calc(50vw - 20px);
-  padding-right: 30px;
+  padding-right: 20px;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #824CA7;
@@ -10626,7 +10626,7 @@ body {
   position: absolute;
   top: 65vh;
   left: calc(50vw - 20px);
-  padding-right: 30px;
+  padding-right: 20px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   font-size: xx-large;
@@ -10653,12 +10653,13 @@ body {
 
 #homeWrapper #waw h1 {
   margin-left: -20px;
-  padding-right: 30px;
+  padding-right: 20px;
+  color: #B9C406 !important;
 }
 
 #homeWrapper #waw .para {
   margin-left: calc(50vw - 20px);
-  padding-right: 30px;
+  padding-right: 20px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   max-width: 80%;
@@ -10676,7 +10677,7 @@ body {
 #homeWrapper #wwd h1 {
   color: #F4F3F4;
   margin-left: -20px;
-  padding-right: 30px;
+  padding-right: 20px;
 }
 
 @media screen and (max-width: 950px) {
