@@ -10747,6 +10747,12 @@ body {
   }
 }
 
+@media screen and (max-width: 574px) {
+  #homeWrapper {
+    grid-template-rows: 15vh 85vh auto 110vh 15vh !important;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .introText {
     font-size: 1.3rem !important;
@@ -10756,10 +10762,6 @@ body {
   .introAction {
     font-size: 1.5rem !important;
     top: 55vh !important;
-  }
-
-  #homeWrapper {
-    grid-template-rows: 15vh 85vh auto 110vh 15vh;
   }
 }
 
