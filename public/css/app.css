@@ -10614,9 +10614,10 @@ body {
 }
 
 #homeWrapper #waw p {
-  margin-left: 40vw;
+  margin-left: 50vw;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
+  max-width: 80%;
 }
 
 #homeWrapper #wwd {
