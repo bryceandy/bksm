@@ -66,19 +66,14 @@ body{
       }
     }
     .logo{
-      position: absolute;
-      top: 50%;
-      left: 5vw;
-      -webkit-transform: translateY(-50%);
-      -moz-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      -o-transform: translateY(-50%);
-      transform: translateY(-50%);
-      a{
-        font-size: xx-large;
-        color: $c1;
-        text-decoration: none;
-        font-weight: 600;
+      a img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-height: 15vh;
+        width: auto;
+        height: 15vh;
+        display: block;
       }
     }
     .nav-links{
@@ -251,6 +246,7 @@ body{
     background: $c3;
     position: fixed!important;
     right: 0!important;
+    top: 0!important;
     padding-top: 15vh;
     z-index: 2;
 

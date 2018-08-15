@@ -6,7 +6,7 @@
 
         <div id="homeNavi">
             <div class="logo">
-                <a href="/">BK</a>
+                <a href="/"><img src="{{'images/bklogo.png'}}" /></a>
             </div>
 
             <a href="tel:+255786140987">CLICK TO CALL <i class="fas fa-phone"></i></a>
@@ -14,8 +14,9 @@
             <div class="nav-links">
                 <a href="/" class="underline">Home</a>
                 <a href="/services">Services</a>
-                <a href="/booking">Make a Booking</a>
-                <a href="/about">About Us</a>
+                <a href="/price-list">Pricing</a>
+                <a href="/booking">Book Us</a>
+                <a href="/about">About</a>
                 <a href="/contact">Contacts</a>
 
                 <div class="menu">

@@ -10533,19 +10533,14 @@ body {
   font-family: FontAwesome;
 }
 
-#homeWrapper #homeNavi .logo {
+#homeWrapper #homeNavi .logo a img {
   position: absolute;
-  top: 50%;
-  left: 5vw;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-#homeWrapper #homeNavi .logo a {
-  font-size: xx-large;
-  color: #D50B53;
-  text-decoration: none;
-  font-weight: 600;
+  top: 0;
+  left: 0;
+  max-height: 15vh;
+  width: auto;
+  height: 15vh;
+  display: block;
 }
 
 #homeWrapper #homeNavi .nav-links {
@@ -10711,6 +10706,7 @@ body {
     background: #A882C1;
     position: fixed !important;
     right: 0 !important;
+    top: 0 !important;
     padding-top: 15vh;
     z-index: 2;
   }
