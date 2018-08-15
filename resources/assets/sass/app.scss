@@ -220,6 +220,7 @@ body{
   }
   .menu{
     display: block!important;
+    margin-right: 5vw;
   }
   .nav-links.showMenu{
     height: 100vh;
@@ -246,7 +247,7 @@ body{
 
       .menubar{
         background: $c2!important;
-        
+
         &:nth-child(1){
           -webkit-transform: rotate(315deg);
           -moz-transform: rotate(315deg);

@@ -10682,6 +10682,7 @@ body {
 
   .menu {
     display: block !important;
+    margin-right: 5vw;
   }
 
   .nav-links.showMenu {
