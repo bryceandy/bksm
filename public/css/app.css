@@ -10521,8 +10521,8 @@ body {
 
 #homeWrapper #homeNavi a[href^="tel:"] {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 25%;
+  left: 80%;
   text-decoration: none;
   color: #B9C406;
   -webkit-transform: translate(-50%, -50%);
@@ -10546,7 +10546,7 @@ body {
 
 #homeWrapper #homeNavi .nav-links {
   position: absolute;
-  top: 50%;
+  top: 60%;
   right: 5vw;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -10682,6 +10682,11 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+  #homeNavi a[href^="tel:"] {
+    top: 50% !important;
+    left: 50% !important;
+  }
+
   .wawDelete {
     display: none;
   }
