@@ -10613,11 +10613,12 @@ body {
   padding: 5vw;
 }
 
-#homeWrapper #waw p {
+#homeWrapper #waw .para {
   margin-left: 50vw;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  max-width: 80%;
+  max-width: 100%;
+  width: 100%;
 }
 
 #homeWrapper #wwd {
