@@ -10587,6 +10587,7 @@ body {
   color: #824CA7;
   font-size: 2.5rem;
   font-weight: bolder;
+  width: 70vw;
 }
 
 #homeWrapper #homeIntro .introAction {
