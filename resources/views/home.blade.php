@@ -14,6 +14,12 @@
                 <a href="/booking">Make a Booking</a>
                 <a href="/about">About Us</a>
                 <a href="/contact">Contacts</a>
+
+                <div class="menu">
+                    <div class="menubar"></div><br />
+                    <div class="menubar ndChild"></div><br />
+                    <div class="menubar"></div>
+                </div>
             </div>
         </div>
 

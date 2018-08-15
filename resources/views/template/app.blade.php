@@ -39,8 +39,9 @@
 
 <script type="text/javascript">
     $(document).ready(function(){
-
-
+        $(".menu").click(function(){
+            $(".nav-links").toggleClass('showMenu');
+        });
     });
 </script>
 
