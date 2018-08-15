@@ -39,7 +39,7 @@ body{
   left: 0;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 15vh 95vh 50vh 110vh 15vh;
+  grid-template-rows: 15vh 95vh auto 110vh 15vh;
   border: 20px solid $c2;
 
   #homeNavi{
@@ -147,18 +147,18 @@ body{
   }
   #waw{
     grid-area: 3/1/4/2;
-    color: $c5;
+    color: $c4;
     font-size: large;
-    padding: 3vw;
+    padding: 5vw;
   }
   #wwd{
     grid-area: 4/1/5/2;
-    background: $c4;
+    background: $c5;
     z-index: -1;
     padding: 3vw;
 
     h1{
-      color: $c5;
+      color: $c1;
     }
   }
 }

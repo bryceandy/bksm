@@ -10508,7 +10508,7 @@ body {
   left: 0;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 15vh 95vh 50vh 110vh 15vh;
+  grid-template-rows: 15vh 95vh auto 110vh 15vh;
   border: 20px solid #F4F3F4;
 }
 
@@ -10608,20 +10608,20 @@ body {
 
 #homeWrapper #waw {
   grid-area: 3/1/4/2;
-  color: #B9C406;
+  color: #824CA7;
   font-size: large;
-  padding: 3vw;
+  padding: 5vw;
 }
 
 #homeWrapper #wwd {
   grid-area: 4/1/5/2;
-  background: #824CA7;
+  background: #B9C406;
   z-index: -1;
   padding: 3vw;
 }
 
 #homeWrapper #wwd h1 {
-  color: #B9C406;
+  color: #D50B53;
 }
 
 @media screen and (max-width: 950px) {
