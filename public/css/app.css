@@ -10482,7 +10482,6 @@ body {
   overflow-x: hidden;
   background: #fff;
   font-family: Ubuntu;
-  padding: 20px;
 }
 
 ::-webkit-scrollbar {
@@ -10510,6 +10509,9 @@ body {
   display: grid;
   grid-template-columns: 100vw;
   grid-template-rows: 15vh 95vh auto 110vh 15vh;
+  border: 20px solid #F4F3F4;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #homeWrapper #homeNavi {
