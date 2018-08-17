@@ -43,7 +43,7 @@
         <div id="wwd">
             <h1 class="text-center">Our Services</h1>
 
-            <div class="w-100">
+            <div class="w-100 services">
                 <div class="container-fluid">
                     <button class="w-100 btn-lg" id="serviceGroup1">Massage Therapies <span id="sgicon1" class="text-right"></span></button>
                     <div class="w-80 toggle1">

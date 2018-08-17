@@ -206,20 +206,6 @@ body{
       width: 80%;
     }
   }
-  #serviceGroup1, #serviceGroup2, #serviceGroup3{
-    color: $c1;
-    cursor: pointer;
-    background-color: $c5;
-  }
-  .toggle1, .toggle2, .toggle3{
-    background-color: $c2;
-    padding: 1vw;
-    color: $c4;
-    display: none;
-  }
-  .toggle1.display, .toggle2.display, .toggle3.display{
-    display: block;
-  }
   #wwd{
     grid-area: 4/1/5/2;
     background: $c5;
@@ -231,6 +217,25 @@ body{
       color: $c2;
       margin-left: -20px;
       padding-right: 20px;
+    }
+    .services{
+      margin-left: -20px;
+    }
+    #serviceGroup1, #serviceGroup2, #serviceGroup3{
+      color: $c1;
+      cursor: pointer;
+      background-color: $c5;
+      padding-right: 20px;
+    }
+    .toggle1, .toggle2, .toggle3{
+      background-color: $c2;
+      padding: 1vw;
+      color: $c4;
+      display: none;
+      padding-right:20px;
+    }
+    .toggle1.display, .toggle2.display, .toggle3.display{
+      display: block;
     }
   }
 }

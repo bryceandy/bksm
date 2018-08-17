@@ -10665,29 +10665,6 @@ body {
   width: 80%;
 }
 
-#homeWrapper #serviceGroup1,
-#homeWrapper #serviceGroup2,
-#homeWrapper #serviceGroup3 {
-  color: #D50B53;
-  cursor: pointer;
-  background-color: #B9C406;
-}
-
-#homeWrapper .toggle1,
-#homeWrapper .toggle2,
-#homeWrapper .toggle3 {
-  background-color: #F4F3F4;
-  padding: 1vw;
-  color: #824CA7;
-  display: none;
-}
-
-#homeWrapper .toggle1.display,
-#homeWrapper .toggle2.display,
-#homeWrapper .toggle3.display {
-  display: block;
-}
-
 #homeWrapper #wwd {
   grid-area: 4/1/5/2;
   background: #B9C406;
@@ -10700,6 +10677,35 @@ body {
   color: #F4F3F4;
   margin-left: -20px;
   padding-right: 20px;
+}
+
+#homeWrapper #wwd .services {
+  margin-left: -20px;
+}
+
+#homeWrapper #wwd #serviceGroup1,
+#homeWrapper #wwd #serviceGroup2,
+#homeWrapper #wwd #serviceGroup3 {
+  color: #D50B53;
+  cursor: pointer;
+  background-color: #B9C406;
+  padding-right: 20px;
+}
+
+#homeWrapper #wwd .toggle1,
+#homeWrapper #wwd .toggle2,
+#homeWrapper #wwd .toggle3 {
+  background-color: #F4F3F4;
+  padding: 1vw;
+  color: #824CA7;
+  display: none;
+  padding-right: 20px;
+}
+
+#homeWrapper #wwd .toggle1.display,
+#homeWrapper #wwd .toggle2.display,
+#homeWrapper #wwd .toggle3.display {
+  display: block;
 }
 
 @media screen and (max-width: 950px) {
