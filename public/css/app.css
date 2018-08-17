@@ -10777,6 +10777,23 @@ body {
   color: #824CA7;
 }
 
+#homeWrapper #foot {
+  grid-area: 6/1/7/2;
+  background-color: #F4F3F4;
+  color: #D50B53;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+
+#homeWrapper #foot a {
+  text-decoration: none;
+  color: #B9C406;
+}
+
+#homeWrapper #foot i {
+  color: #B9C406;
+}
+
 @media screen and (max-width: 950px) {
   .introText {
     font-size: 1.8rem !important;
@@ -10787,6 +10804,7 @@ body {
   .client .card {
     height: 20vh;
     width: 794px;
+    margin-left: calc(50vw - 431px);
   }
 
   .client {

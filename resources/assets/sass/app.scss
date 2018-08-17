@@ -312,6 +312,21 @@ body{
       }
     }
   }
+  #foot{
+    grid-area: 6/1/7/2;
+    background-color: $c2;
+    color: $c1;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+
+    a{
+      text-decoration: none;
+      color: $c5;
+    }
+    i{
+      color: $c5;
+    }
+  }
 }
 @media screen and (max-width: 950px){
   .introText{
@@ -322,6 +337,7 @@ body{
   .client .card{
     height: 20vh;
     width: 794px;
+    margin-left: calc(50vw - 431px);
   }
   .client{
     height: 26vh;

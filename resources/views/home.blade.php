@@ -142,6 +142,12 @@
 
         </div>
 
+        <div id="foot" class="text-center">
+
+            2018 &copy;BK Sports Massage<br /><br />
+            Created with <i class="fas fa-heart"></i> by <a href="http://bryceandy.com">BryceAndy</a>
+
+        </div>
 
     </div>
 
