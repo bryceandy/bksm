@@ -10866,6 +10866,10 @@ body {
   #wwd {
     border-right: 40px solid #F4F3F4;
   }
+
+  #clientelle {
+    padding-right: 40px;
+  }
 }
 
 @media screen and (max-width: 450px) {

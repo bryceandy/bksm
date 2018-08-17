@@ -106,12 +106,12 @@
 
         <div id="clientelle">
 
-            <h2>What Our Clients Say</h2>
+            <h2 text-center>What Our Clients Say</h2><br />
 
             <div id="client1" class="client">
                 <div class="card w-70">
-                    <div class="card-body">
-                        My first experience was very calm and relaxing. I would love to try out other treatments when I fly back to Dar.
+                    <div class="card-body text-center">
+                        My first experience was very calm and relaxing. I would love to try out other treatments when I fly back to Dar.<span class="cliClose"> Btw, I had a little trouble with the booking</span>
                         <hr />
                         <span class="text-muted">Mary, Chef</span>
                     </div>
@@ -120,8 +120,8 @@
 
             <div id="client2" class="client">
                 <div class="card w-70">
-                    <div class="card-body">
-                        Nice, clean facilities and equipment, the staff is friendly too :)
+                    <div class="card-body text-center">
+                        <span class="cliClose">All this time I did not know the services are mobile, I should have re-read their website. Otherwise </span>nice, clean facilities and equipment, the staff is friendly too :)
                         <hr />
                         <span class="text-muted">Joshua, Security Analyst</span>
                     </div>
