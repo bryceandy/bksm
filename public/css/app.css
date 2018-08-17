@@ -10764,7 +10764,7 @@ body {
 }
 
 #homeWrapper #clientelle .client img {
-  width: auto;
+  max-width: 40vw;
 }
 
 #homeWrapper #clientelle .client .clientInline {
