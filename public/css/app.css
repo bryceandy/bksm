@@ -10887,5 +10887,14 @@ body {
   .cliClose {
     display: none;
   }
+
+  .client {
+    padding-top: 1vh;
+    height: 34vh;
+  }
+
+  .client .card {
+    height: 32vh;
+  }
 }
 

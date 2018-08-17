@@ -420,4 +420,12 @@ body{
   .cliClose{
     display: none;
   }
+  .client{
+    padding-top: 1vh;
+    height: 34vh;
+
+    .card{
+      height: 32vh;
+    }
+  }
 }
