@@ -10669,7 +10669,7 @@ body {
   grid-area: 4/1/5/2;
   background: #B9C406;
   padding-top: 5vw;
-  padding-bottom: 5vw;
+  padding-bottom: 7vw;
   overflow: hidden;
   border-right: 45px solid #F4F3F4;
   -webkit-box-sizing: border-box;
@@ -10702,9 +10702,9 @@ body {
 #homeWrapper #wwd .toggle2,
 #homeWrapper #wwd .toggle3,
 #homeWrapper #wwd .toggle4 {
-  background-color: #F4F3F4;
+  background-color: #D50B53;
   padding: 1vw;
-  color: #824CA7;
+  color: #F4F3F4;
   display: none;
   padding-right: 20px;
 }

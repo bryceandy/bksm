@@ -127,6 +127,7 @@
                 $("#sgicon4").toggleClass('rot');
             });
 
+            $("#serviceGroup1").click();
         });
     </script>
 @endsection

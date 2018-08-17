@@ -210,7 +210,7 @@ body{
     grid-area: 4/1/5/2;
     background: $c5;
     padding-top: 5vw;
-    padding-bottom: 5vw;
+    padding-bottom: 7vw;
     overflow: hidden;
 
     border-right: 45px solid $c2;
@@ -236,9 +236,9 @@ body{
       border-bottom: none;
     }
     .toggle1, .toggle2, .toggle3, .toggle4{
-      background-color: $c2;
+      background-color: $c1;
       padding: 1vw;
-      color: $c4;
+      color: $c2;
       display: none;
       padding-right:20px;
     }
