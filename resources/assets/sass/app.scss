@@ -39,7 +39,7 @@ body{
   left: 0;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 15vh 95vh auto auto auto 15vh;
+  grid-template-rows: 15vh 95vh auto auto auto auto;
   border: 20px solid $c2;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -422,7 +422,7 @@ body{
 }
 @media screen and (max-width: 574px){
   #homeWrapper{
-    grid-template-rows: 15vh 85vh auto auto auto 15vh;
+    grid-template-rows: 15vh 85vh auto auto auto auto;
   }
 }
 @media screen and (max-width: 500px){
@@ -443,7 +443,7 @@ body{
 }
 @media screen and (max-width: 450px){
   #homeWrapper{
-    grid-template-rows: 15vh 65vh auto auto auto 15vh;
+    grid-template-rows: 15vh 65vh auto auto auto auto;
   }
   .introAction{
     top: 48vh!important;
