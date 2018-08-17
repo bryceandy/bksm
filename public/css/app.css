@@ -10724,17 +10724,17 @@ body {
   transition: all .5s;
 }
 
-#homeWrapper #wwd .plus:nth-child(first) {
+#homeWrapper #wwd .plus.first {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
 
-#homeWrapper #wwd #sgicon1.rot .plus:nth-child(first),
-#homeWrapper #wwd #sgicon2.rot .plus:nth-child(first),
-#homeWrapper #wwd #sgicon3.rot .plus:nth-child(first),
-#homeWrapper #wwd #sgicon4.rot .plus:nth-child(first) {
+#homeWrapper #wwd #sgicon1.rot .plus.first,
+#homeWrapper #wwd #sgicon2.rot .plus.first,
+#homeWrapper #wwd #sgicon3.rot .plus.first,
+#homeWrapper #wwd #sgicon4.rot .plus.first {
   visibility: hidden;
   opacity: 0;
 }

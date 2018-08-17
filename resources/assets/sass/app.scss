@@ -256,7 +256,7 @@ body{
       -o-transition: all .5s;
       transition: all .5s;
 
-      &:nth-child(first){
+      &.first{
         -webkit-transform: rotate(45deg);
         -moz-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
@@ -270,7 +270,7 @@ body{
       }
     }
     #sgicon1.rot, #sgicon2.rot, #sgicon3.rot, #sgicon4.rot{
-      .plus:nth-child(first){
+      .plus.first{
         visibility: hidden;
         opacity: 0;
       }
