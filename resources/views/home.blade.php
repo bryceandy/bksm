@@ -45,10 +45,7 @@
 
             <div class="services">
 
-                <button class="btn-lg" id="serviceGroup1">Massage Therapies <span id="sgicon1" class="float-right"><span class="plus first"></span><span class="plus"></span></span>
-                    <div class="svimg servImage1"><img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimage1.masterfile.com%2FgetImage%2FNjExMC0wNjcwMjcwNmVuLjAwMDAwMDAw%3DAKb2T8%2F6110-06702706en_Masterfile.jpg&imgrefurl=http%3A%2F%2Fwww.masterfile.com%2Fsearch%2Fen%2Fmassage%2Bpicture%2Bafrican%2Bpeople&docid=RrwVkqORSoO7PM&tbnid=frPKQYTh1EflVM%3A&vet=10ahUKEwifq9Hgw_TcAhUHpIsKHd14D1cQMwhWKAkwCQ..i&w=450&h=299&bih=662&biw=1366&q=massage%20black%20people&ved=0ahUKEwifq9Hgw_TcAhUHpIsKHd14D1cQMwhWKAkwCQ&iact=mrc&uact=8" /></div>
-
-                </button>
+                <button class="btn-lg" id="serviceGroup1">Massage Therapies <span id="sgicon1" class="float-right"><span class="plus first"></span><span class="plus"></span></span></button>
                 <div class="w-80 toggle1">
                     <ul>
                         <li>Sports Massage</li>
@@ -66,11 +63,8 @@
                     </ul>
                 </div>
 
-                <button class="btn-lg" id="serviceGroup2">Waxing Treatments <span id="sgicon2" class="float-right"><span class="plus first"></span><span class="plus"></span></span>
-                    <div class="svimg servImage2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVmYeYvj9VcDLv7-ZM6KxMyFglE83hVB40yKMpccp60kyRr_vWrQ" /></div>
-
-                </button>
-                    <div class="w-80 toggle2">
+                <button class="btn-lg" id="serviceGroup2">Waxing Treatments <span id="sgicon2" class="float-right"><span class="plus first"></span><span class="plus"></span></span></button>
+                <div class="w-80 toggle2">
                     <ul>
                         <li>Brazilian Bikini</li>
                         <li>Under Arm</li>
@@ -87,20 +81,14 @@
                     </ul>
                 </div>
 
-                <button class="btn-lg" id="serviceGroup3">Facial Treatments <span id="sgicon3" class="float-right"><span class="plus first"></span><span class="plus"></span></span>
-                    <div class="svimg servImage3"><img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimage1.masterfile.com%2FgetImage%2FNjE0LTAyOTgzOTExZW4uMDAwMDAwMDA%3DAEe5kO%2F614-02983911en_Masterfile.jpg&imgrefurl=https%3A%2F%2Fwww.masterfile.com%2Fsearch%2Fen%2Ffacial%2Btreatment%2Bafrican%2Bamerican&docid=rpCDjXMXy9qU0M&tbnid=6MfD72rMfW09iM%3A&vet=10ahUKEwixra-ExvTcAhXBCpoKHeioDLoQMwhFKAgwCA..i&w=300&h=450&bih=662&biw=1366&q=facial%20treatment%20black%20people&ved=0ahUKEwixra-ExvTcAhXBCpoKHeioDLoQMwhFKAgwCA&iact=mrc&uact=8" /></div>
-
-                </button>
+                <button class="btn-lg" id="serviceGroup3">Facial Treatments <span id="sgicon3" class="float-right"><span class="plus first"></span><span class="plus"></span></span></button>
                 <div class="w-80 toggle3">
                     <ul>
                         <li>Full Face Scrub</li>
                     </ul>
                 </div>
 
-                <button class="btn-lg" id="serviceGroup4">ManiPedi Treatments <span id="sgicon4" class="float-right"><span class="plus first"></span><span class="plus"></span></span>
-                    <div class="svimg servImage2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR6MMRKvmR8tgI5G-35JPD0WFO9HIaLcwJgxX8BHtCGeI2qyUs" /></div>
-
-                </button>
+                <button class="btn-lg" id="serviceGroup4">ManiPedi Treatments <span id="sgicon4" class="float-right"><span class="plus first"></span><span class="plus"></span></span></button>
                 <div class="w-80 toggle4">
                     <ul>
                         <li>Manicure</li>
