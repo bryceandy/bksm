@@ -1,5 +1,9 @@
 @extends('template.app')
 
+@section('title')
+    BK Sports Massage | Your Road To Recovery
+@endsection
+
 @section('content')
 
     <div id="homeWrapper">
@@ -15,8 +19,7 @@
                 <a href="/" class="underline">Home</a>
                 <a href="#wwd">Services</a>
                 <a href="/booking">Book Us</a>
-                <a href="/about">About</a>
-                <a href="/contact">Contacts</a>
+                <a href="/about">About Us & Contacts</a>
 
                 <div class="menu">
                     <div class="menubar"></div><br />
@@ -101,6 +104,46 @@
 
         </div>
 
+        <div id="clientelle">
+
+            <div id="client1" class="client">
+
+                <img src="{{'/images/client1.JPG'}}" class="clientInline"/>
+                <div class="card w-50 clientInline">
+                    <div class="card-body">
+                        My first experience was very calm and relaxing.
+                        <hr />
+                        <span class="text-muted">Mary, Chef</span>
+                    </div>
+                </div>
+
+            </div>
+            <div id="client2" class="client">
+
+                <img src="{{'/images/client2.JPG'}}" class="clientInline"/>
+                <div class="card w-50 clientInline">
+                    <div class="card-body">
+                        Nice, clean facilities and equipment, the staff is friendly too :)
+                        <hr />
+                        <span class="text-muted">Joshua, Security Analyst</span>
+                    </div>
+                </div>
+
+            </div>
+            <div id="client3" class="client">
+
+                <img src="{{'/images/client3.JPG'}}" class="clientInline"/>
+                <div class="card w-50 clientInline">
+                    <div class="card-body">
+                        Although I had difficulties making a booking the good side is they did a great job. I will definitely call them again for another treatment!
+                        <hr />
+                        <span class="text-muted">Christine, Aquaintance</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
     </div>
 
 @endsection
@@ -128,7 +171,7 @@
                 $("#sgicon4").toggleClass('rot');
             });
 
-            $("#serviceGroup1").click();
+            $("#serviceGroup2").click();
         });
     </script>
 @endsection

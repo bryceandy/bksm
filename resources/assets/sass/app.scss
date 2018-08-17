@@ -39,7 +39,7 @@ body{
   left: 0;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 15vh 95vh auto auto 15vh;
+  grid-template-rows: 15vh 95vh auto auto 80vh 15vh;
   border: 20px solid $c2;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -142,7 +142,7 @@ body{
     .introText{
       z-index: 1;
       position: absolute;
-      top: 20vh;
+      top: 22vh;
       left:  calc(50vw - 20px);
       padding-right: 20px;
       -webkit-transform: translate(-50%, -50%);
@@ -289,6 +289,27 @@ body{
       }
     }
   }
+  #clientelle{
+    grid-area: 5/1/6/2;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+    .client{
+      height: 30vh;
+      padding-top: 1vh;
+
+      img{
+        width: auto;
+      }
+      .clientInline{
+        display: inline-block;
+        height: 28vh;
+      }
+      .card{
+        border: 1px solid $c3;
+      }
+    }
+  }
 }
 @media screen and (max-width: 950px){
   .introText{
@@ -368,7 +389,7 @@ body{
 }
 @media screen and (max-width: 574px){
   #homeWrapper{
-    grid-template-rows: 15vh 85vh auto auto 15vh;
+    grid-template-rows: 15vh 85vh auto auto 80vh 15vh;
   }
 }
 @media screen and (max-width: 500px){
@@ -386,7 +407,7 @@ body{
 }
 @media screen and (max-width: 450px){
   #homeWrapper{
-    grid-template-rows: 15vh 65vh auto auto 15vh;
+    grid-template-rows: 15vh 65vh auto auto 80vh 15vh;
   }
   .introAction{
     top: 48vh!important;
