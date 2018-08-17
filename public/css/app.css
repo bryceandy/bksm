@@ -10671,7 +10671,7 @@ body {
   padding-top: 5vw;
   padding-bottom: 5vw;
   overflow: hidden;
-  border-right: 50px solid #F4F3F4;
+  border-right: 45px solid #F4F3F4;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -10688,7 +10688,7 @@ body {
   background-color: #B9C406;
   padding-right: 20px;
   width: 100%;
-  border: 1px solid #F4F3F4;
+  border: 1px solid;
 }
 
 #homeWrapper #wwd .toggle1,
@@ -10794,6 +10794,10 @@ body {
   .introAction {
     font-size: 1.5rem !important;
     top: 55vh !important;
+  }
+
+  #wwd {
+    border-right: 40px solid #F4F3F4;
   }
 }
 

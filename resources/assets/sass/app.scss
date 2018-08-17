@@ -213,7 +213,7 @@ body{
     padding-bottom: 5vw;
     overflow: hidden;
 
-    border-right: 50px solid $c2;
+    border-right: 45px solid $c2;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -230,7 +230,7 @@ body{
       background-color: $c5;
       padding-right: 20px;
       width: 100%;
-      border: 1px solid $c2;
+      border: 1px solid;
     }
     .toggle1, .toggle2, .toggle3{
       background-color: $c2;
@@ -333,6 +333,9 @@ body{
   .introAction{
     font-size: 1.5rem!important;
     top: 55vh!important;
+  }
+  #wwd{
+    border-right: 40px solid $c2;
   }
 }
 @media screen and (max-width: 450px){
