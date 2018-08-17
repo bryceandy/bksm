@@ -10679,6 +10679,19 @@ body {
   padding-right: 20px;
 }
 
+#homeWrapper #wwd .card-header {
+  background-color: #B9C406 !important;
+}
+
+#homeWrapper #wwd .card-header h5 .btn-link {
+  color: #D50B53 !important;
+}
+
+#homeWrapper #wwd .card-header .collapse {
+  background-color: #F4F3F4 !important;
+  color: #824CA7 !important;
+}
+
 @media screen and (max-width: 950px) {
   .introText {
     font-size: 1.8rem !important;

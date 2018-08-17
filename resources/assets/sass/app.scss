@@ -219,6 +219,16 @@ body{
       margin-left: -20px;
       padding-right: 20px;
     }
+    .card-header{
+      background-color: $c5!important;
+      h5 .btn-link{
+        color: $c1!important;
+      }
+      .collapse{
+        background-color: $c2!important;
+        color: $c4!important;
+      }
+    }
   }
 }
 @media screen and (max-width: 950px){
