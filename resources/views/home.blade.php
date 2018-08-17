@@ -88,7 +88,7 @@
                     </ul>
                 </div>
 
-                <button class="btn-lg" id="serviceGroup4">ManiPedi Treatments <span id="sgicon4" class="text-right"></span></button>
+                <button class="btn-lg" id="serviceGroup4">ManiPedi Treatments <span id="sgicon4" class="text-right"><span class="plus"></span><span class="plus"></span></span></button>
                 <div class="w-80 toggle4">
                     <ul>
                         <li>Manicure</li>
