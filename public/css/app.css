@@ -10728,7 +10728,7 @@ body {
 
 #homeWrapper #wwd .plus.first {
   -webkit-transform: rotate(90deg) translate(0.8vh, 0.1vh);
-  transform: rotate(90deg) translate(0, -0.3vh);
+  transform: rotate(90deg) translate(0.8vh, 0.1vh);
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
