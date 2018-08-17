@@ -10656,29 +10656,6 @@ body {
   color: #B9C406 !important;
 }
 
-#homeWrapper #waw #serviceGroup1,
-#homeWrapper #waw #serviceGroup2,
-#homeWrapper #waw #serviceGroup3 {
-  color: #D50B53;
-  cursor: pointer;
-  background-color: #B9C406;
-}
-
-#homeWrapper #waw .toggle1,
-#homeWrapper #waw .toggle2,
-#homeWrapper #waw .toggle3 {
-  background-color: #F4F3F4;
-  padding: 1vw;
-  color: #824CA7;
-  display: none;
-}
-
-#homeWrapper #waw .toggle1.display,
-#homeWrapper #waw .toggle2.display,
-#homeWrapper #waw .toggle3.display {
-  display: block;
-}
-
 #homeWrapper #waw .para {
   margin-left: calc(50vw - 20px);
   padding-right: 20px;
@@ -10686,6 +10663,29 @@ body {
   transform: translateX(-50%);
   max-width: 80%;
   width: 80%;
+}
+
+#homeWrapper #serviceGroup1,
+#homeWrapper #serviceGroup2,
+#homeWrapper #serviceGroup3 {
+  color: #D50B53;
+  cursor: pointer;
+  background-color: #B9C406;
+}
+
+#homeWrapper .toggle1,
+#homeWrapper .toggle2,
+#homeWrapper .toggle3 {
+  background-color: #F4F3F4;
+  padding: 1vw;
+  color: #824CA7;
+  display: none;
+}
+
+#homeWrapper .toggle1.display,
+#homeWrapper .toggle2.display,
+#homeWrapper .toggle3.display {
+  display: block;
 }
 
 #homeWrapper #wwd {

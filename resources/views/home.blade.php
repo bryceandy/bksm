@@ -43,9 +43,9 @@
         <div id="wwd">
             <h1 class="text-center">Our Services</h1>
 
-            <div class="container">
+            <div class="w-100">
                 <div class="container-fluid">
-                    <button class="w-100" id="serviceGroup1">Massage Therapies <span id="sgicon1" class="text-right"></span></button>
+                    <button class="w-100 btn-lg" id="serviceGroup1">Massage Therapies <span id="sgicon1" class="text-right"></span></button>
                     <div class="w-80 toggle1">
                         <ul>
                             <li>Sports Massage</li>
@@ -63,7 +63,7 @@
                     </div>
                 </div>
                 <div class="container-fluid">
-                    <button class="w-100" id="serviceGroup2">Waxing Treatments <span id="sgicon2" class="text-right"></span></button>
+                    <button class="w-100 btn-lg" id="serviceGroup2">Waxing Treatments <span id="sgicon2" class="text-right"></span></button>
                     <div class="w-80 toggle2">
                         <ul>
                             <li>Brazilian Bikini</li>
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div class="container-fluid">
-                    <button class="w-100" id="serviceGroup3">Facial Treatments <span id="sgicon3" class="text-right"></span></button>
+                    <button class="w-100 btn-lg" id="serviceGroup3">Facial Treatments <span id="sgicon3" class="text-right"></span></button>
                     <div class="w-80 toggle3">
                         <ul>
                             <li>Full Face Scrub</li>
