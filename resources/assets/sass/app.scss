@@ -220,6 +220,13 @@ body{
 
     .svimg{
       height: 200px; width: 200px;
+      position: absolute;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%);
     }
     h1{
       color: $c4;
