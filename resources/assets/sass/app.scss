@@ -213,6 +213,11 @@ body{
     padding-bottom: 5vw;
     overflow: hidden;
 
+    border-right: 20px solid $c2;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
     h1{
       color: $c2;
       margin-left: -20px;

@@ -10671,6 +10671,9 @@ body {
   padding-top: 5vw;
   padding-bottom: 5vw;
   overflow: hidden;
+  border-right: 20px solid #F4F3F4;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #homeWrapper #wwd h1 {
