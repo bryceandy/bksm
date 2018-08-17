@@ -10717,16 +10717,17 @@ body {
 
 #homeWrapper #wwd .plus {
   display: block;
-  width: 4.5vh;
-  height: .6vh;
+  width: 4vh;
+  height: .3vh;
+  margin-top: 1.2vh;
   background-color: #D50B53;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 #homeWrapper #wwd .plus.first {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg) translate(0, -0.3vh);
+  transform: rotate(45deg) translate(0, -0.3vh);
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
