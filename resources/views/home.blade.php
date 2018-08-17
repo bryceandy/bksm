@@ -112,15 +112,19 @@
 
             $("#serviceGroup1, #sgicon1").click(function(){
                 $(".toggle1").toggleClass('display');
+                $("#sgicon1").toggleClass('rot');
             });
             $("#serviceGroup2, #sgicon2").click(function(){
                 $(".toggle2").toggleClass('display');
+                $("#sgicon2").toggleClass('rot');
             });
             $("#serviceGroup3, #sgicon3").click(function(){
                 $(".toggle3").toggleClass('display');
+                $("#sgicon3").toggleClass('rot');
             });
             $("#serviceGroup4, #sgicon4").click(function(){
                 $(".toggle4").toggleClass('display');
+                $("#sgicon4").toggleClass('rot');
             });
 
         });
