@@ -43,7 +43,7 @@
         <div id="wwd">
             <h1 class="text-center">Our Services</h1>
 
-            <div class="w-100 services">
+            <div class="services">
 
                 <button class="large" id="serviceGroup1">Massage Therapies <span id="sgicon1" class="text-right"></span></button>
                 <div class="w-80 toggle1">
@@ -59,6 +59,7 @@
                         <li>Thai Massage</li>
                         <li>Head Massage</li>
                         <li>Reflexology Massage</li>
+                        <li>Body Scrub Treatment</li>
                     </ul>
                 </div>
 

@@ -10689,6 +10689,7 @@ body {
   cursor: pointer;
   background-color: #B9C406;
   padding-right: 20px;
+  width: 100%;
 }
 
 #homeWrapper #wwd .toggle1,
