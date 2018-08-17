@@ -218,8 +218,11 @@ body{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
+    .svimg{
+      height: 200px; width: 200px;
+    }
     h1{
-      color: $c2;
+      color: $c4;
     }
     .services{
 
@@ -242,14 +245,14 @@ body{
       display: none;
       padding-right:20px;
     }
-    .toggle1.display, .toggle2.display, .toggle3.display{
+    .toggle1.display, .toggle2.display, .toggle3.display, .toggle4.display{
       display: block;
     }
     .plus{
       display: block;
-      width: 4vh;
+      width: 2.5vh;
       height: .3vh;
-      margin-top: 1.2vh;
+      margin-top: 0.6vh;
       background-color: $c1;
       -webkit-transition: all .5s;
       -moz-transition: all .5s;
@@ -258,7 +261,7 @@ body{
       transition: all .5s;
 
       &.first{
-        -webkit-transform: rotate(90deg) translate(0, -0.3vh);
+        -webkit-transform: rotate(90deg) translate(0.8vh, 0.1vh);
         -moz-transform: rotate(90deg) translate(0, -0.3vh);
         -ms-transform: rotate(90deg) translate(0, -0.3vh);
         -o-transform: rotate(90deg) translate(0, -0.3vh);

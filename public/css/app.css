@@ -10676,8 +10676,13 @@ body {
   box-sizing: border-box;
 }
 
+#homeWrapper #wwd .svimg {
+  height: 200px;
+  width: 200px;
+}
+
 #homeWrapper #wwd h1 {
-  color: #F4F3F4;
+  color: #824CA7;
 }
 
 #homeWrapper #wwd #serviceGroup1,
@@ -10711,22 +10716,23 @@ body {
 
 #homeWrapper #wwd .toggle1.display,
 #homeWrapper #wwd .toggle2.display,
-#homeWrapper #wwd .toggle3.display {
+#homeWrapper #wwd .toggle3.display,
+#homeWrapper #wwd .toggle4.display {
   display: block;
 }
 
 #homeWrapper #wwd .plus {
   display: block;
-  width: 4vh;
+  width: 2.5vh;
   height: .3vh;
-  margin-top: 1.2vh;
+  margin-top: 0.6vh;
   background-color: #D50B53;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
 #homeWrapper #wwd .plus.first {
-  -webkit-transform: rotate(90deg) translate(0, -0.3vh);
+  -webkit-transform: rotate(90deg) translate(0.8vh, 0.1vh);
   transform: rotate(90deg) translate(0, -0.3vh);
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
