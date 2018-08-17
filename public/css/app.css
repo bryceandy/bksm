@@ -10773,6 +10773,7 @@ body {
 #homeWrapper #clientelle .client .card {
   border: 1px solid #A882C1;
   height: 30vh;
+  max-width: 630px;
 }
 
 @media screen and (max-width: 950px) {
@@ -10844,6 +10845,12 @@ body {
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
     margin-top: -0.9rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .client .card {
+    width: 630px !important;
   }
 }
 

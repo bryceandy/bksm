@@ -307,6 +307,7 @@ body{
       .card{
         border: 1px solid $c3;
         height: 30vh;
+        max-width: 630px;
       }
     }
   }
@@ -385,6 +386,11 @@ body{
         }
       }
     }
+  }
+}
+@media screen and (min-width: 700px){
+  .client .card{
+    width: 630px!important;
   }
 }
 @media screen and (max-width: 574px){
