@@ -88,6 +88,14 @@
                     </ul>
                 </div>
 
+                <button class="btn-lg" id="serviceGroup4">ManiPedi Treatments <span id="sgicon4" class="text-right"></span></button>
+                <div class="w-80 toggle4">
+                    <ul>
+                        <li>Manicure</li>
+                        <li>Pedicure</li>
+                    </ul>
+                </div>
+
             </div>
 
         </div>
@@ -110,6 +118,9 @@
             });
             $("#serviceGroup3, #sgicon3").click(function(){
                 $(".toggle3").toggleClass('display');
+            });
+            $("#serviceGroup4, #sgicon4").click(function(){
+                $(".toggle4").toggleClass('display');
             });
 
         });

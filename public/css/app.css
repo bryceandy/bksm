@@ -10682,13 +10682,20 @@ body {
 
 #homeWrapper #wwd #serviceGroup1,
 #homeWrapper #wwd #serviceGroup2,
-#homeWrapper #wwd #serviceGroup3 {
+#homeWrapper #wwd #serviceGroup3,
+#homeWrapper #wwd #serviceGroup4 {
   color: #D50B53;
   cursor: pointer;
   background-color: #B9C406;
   padding-right: 20px;
   width: 100%;
   border: 1px solid;
+}
+
+#homeWrapper #wwd #serviceGroup1,
+#homeWrapper #wwd #serviceGroup2,
+#homeWrapper #wwd #serviceGroup3 {
+  border-bottom: none;
 }
 
 #homeWrapper #wwd .toggle1,
