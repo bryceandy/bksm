@@ -6,7 +6,7 @@
 
         <div id="homeNavi">
             <div class="logo">
-                <a href="/"><img src="{{'images/bklogo.png'}}" /></a>
+                <a href="/"><img src="{{'images/bklogo.svg'}}" /></a>
             </div>
 
             <a href="tel:+255786140987">CALL HERE <i class="fas fa-phone"></i></a>
