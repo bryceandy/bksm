@@ -42,7 +42,7 @@
         </div>
 
         <div id="wwd">
-            <h1 class="text-center">Our Services</h1><br />
+            <h1 class="text-center">Our Services</h1>
 
             <div class="accordion" id="accordionServices">
                 <div class="card">
