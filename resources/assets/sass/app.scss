@@ -188,6 +188,7 @@ body{
     font-size: large;
     padding-top: 5vw;
     padding-bottom: 10vw;
+    position: relative;
 
     h1{
       margin-left: -20px;
@@ -204,6 +205,14 @@ body{
       transform: translateX(-50%);
       max-width: 80%;
       width: 80%;
+    }
+    #bgimage{
+      position: absolute;
+      top: 20%;
+      height: 60%;
+      width: auto;
+      opacity: 0.6;
+      background-image: url("/images/bklogobare.jpg");
     }
   }
   #wwd{
