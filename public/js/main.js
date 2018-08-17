@@ -21,4 +21,5 @@ var typer = new TypeIt('.introText', {
     .options({speed: 150})
     .type('Body Slimming, Scrubs, Facials, Waxing, Sauna and many more...')
     .break()
+    .pause(2500)
     .type('Book Us Now.');

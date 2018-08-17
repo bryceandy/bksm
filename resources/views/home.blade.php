@@ -13,8 +13,7 @@
 
             <div class="nav-links">
                 <a href="/" class="underline">Home</a>
-                <a href="/services">Services</a>
-                <a href="/price-list">Pricing</a>
+                <a href="#wwd">Services</a>
                 <a href="/booking">Book Us</a>
                 <a href="/about">About</a>
                 <a href="/contact">Contacts</a>
@@ -44,66 +43,50 @@
         <div id="wwd">
             <h1 class="text-center">Our Services</h1>
 
-            <div class="accordion" id="accordionServices">
-                <div class="card">
-                    <div class="card-header" id="headingOne">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapse-icon.left collapse-icon  accordion-icon-rotate" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Massage Therapies
-                            </button>
-                        </h5>
-                    </div>
-
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionServices">
-                        <div class="card-body">
-                            <ul>
-                                <li>Sports Massage</li>
-                                <li>Deep Tissue Massage</li>
-                                <li>Cupping Therapy</li>
-                                <li>Hot Stone Massage</li>
-                                <li>Body Slimming Massage</li>
-                                <li>Prenatal Massage</li>
-                                <li>Aromatherapy Massage</li>
-                                <li>Swedish Massage</li>
-                                <li>Thai Massage</li>
-                                <li>Head Massage</li>
-                                <li>Reflexology</li>
-                            </ul>
-                        </div>
+            <div class="container">
+                <div class="container-fluid">
+                    <button class="w-100" id="serviceGroup1">Massage Therapies <span id="sgicon1" class="text-right"></span></button>
+                    <div class="w-80 toggle1">
+                        <ul>
+                            <li>Sports Massage</li>
+                            <li>Deep-Tissue Massage</li>
+                            <li>Cupping Therapy</li>
+                            <li>Hot-Stone Massage</li>
+                            <li>Body-Slimming Massage</li>
+                            <li>Prenatal Massage</li>
+                            <li>Aromatherapy Massage</li>
+                            <li>Swedish Massage</li>
+                            <li>Thai Massage</li>
+                            <li>Head Massage</li>
+                            <li>Reflexology Massage</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="headingTwo">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed collapse-icon.left collapse-icon accordion-icon-rotate" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Waxing Treatments
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionServices">
-                        <div class="card-body">
-                             <ul>
-                                 <li>Brazilian Bikini</li>
-                                 <li>Under Arm</li>
-                                 <li>Full Leg</li>
-                             </ul>
-                        </div>
+                <div class="container-fluid">
+                    <button class="w-100" id="serviceGroup2">Waxing Treatments <span id="sgicon2" class="text-right"></span></button>
+                    <div class="w-80 toggle2">
+                        <ul>
+                            <li>Brazilian Bikini</li>
+                            <li>Under Arm</li>
+                            <li>Full Leg</li>
+                            <li>Half Leg</li>
+                            <li>Lip Waxing</li>
+                            <li>Cheek Waxing</li>
+                            <li>Chin</li>
+                            <li>Full Arm</li>
+                            <li>Half Arm</li>
+                            <li>Chest & Stomach</li>
+                            <li>Full Back</li>
+                            <li>Full Body Waxing</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="headingThree">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed collapse-icon.left collapse-icon accordion-icon-rotate" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Facial Treatments
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionServices">
-                        <div class="card-body">
-                            <ul>
-                                <li>Face Scrub</li>
-                            </ul>
-                        </div>
+                <div class="container-fluid">
+                    <button class="w-100" id="serviceGroup3">Facial Treatments <span id="sgicon3" class="text-right"></span></button>
+                    <div class="w-80 toggle3">
+                        <ul>
+                            <li>Full Face Scrub</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -117,7 +100,19 @@
 @section('scripts')
     <script type="text/javascript">
         $(document).ready(function(){
+
             $('.underline').css('text-decoration', 'underline');
+
+            $("#serviceGroup1, #sgicon1").click(function(){
+                $(".toggle1").toggleClass('display');
+            });
+            $("#serviceGroup2, #sgicon2").click(function(){
+                $(".toggle2").toggleClass('display');
+            });
+            $("#serviceGroup3, #sgicon3").click(function(){
+                $(".toggle3").toggleClass('display');
+            });
+
         });
     </script>
 @endsection

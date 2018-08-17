@@ -194,7 +194,20 @@ body{
       padding-right: 20px;
       color: $c5!important;
     }
-    
+    #serviceGroup1, #serviceGroup2, #serviceGroup3{
+      color: $c1;
+      cursor: pointer;
+      background-color: $c5;
+    }
+    .toggle1, .toggle2, .toggle3{
+      background-color: $c2;
+      padding: 1vw;
+      color: $c4;
+      display: none;
+    }
+    .toggle1.display, .toggle2.display, .toggle3.display{
+      display: block;
+    }
     .para{
       margin-left: calc(50vw - 20px);
       padding-right: 20px;
@@ -218,18 +231,6 @@ body{
       color: $c2;
       margin-left: -20px;
       padding-right: 20px;
-    }
-    .card-header{
-      background-color: $c5!important;
-      h5 .btn-link{
-        color: $c1!important;
-      }
-      .collapse{
-        background-color: $c2!important;
-        .card-body{
-          color: $c4!important;
-        }
-      }
     }
   }
 }
