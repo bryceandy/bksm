@@ -230,6 +230,7 @@ body{
       background-color: $c5;
       padding-right: 20px;
       width: 100%;
+      border: 1px solid $c2;
     }
     .toggle1, .toggle2, .toggle3{
       background-color: $c2;
@@ -321,7 +322,7 @@ body{
 }
 @media screen and (max-width: 574px){
   #homeWrapper{
-    grid-template-rows: 15vh 85vh auto 110vh 15vh;
+    grid-template-rows: 15vh 85vh auto auto 15vh;
   }
 }
 @media screen and (max-width: 500px){
@@ -336,7 +337,7 @@ body{
 }
 @media screen and (max-width: 450px){
   #homeWrapper{
-    grid-template-rows: 15vh 65vh auto 110vh 15vh;
+    grid-template-rows: 15vh 65vh auto auto 15vh;
   }
   .introAction{
     top: 48vh!important;
