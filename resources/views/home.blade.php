@@ -44,7 +44,7 @@
         <div id="wwd">
             <h1 class="text-center">Our Services</h1>
 
-            <div class="accordion" id="accordion accordionServices">
+            <div class="accordion" id="accordionServices">
                 <div class="card">
                     <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
