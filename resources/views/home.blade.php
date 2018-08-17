@@ -94,15 +94,15 @@
                     <div class="card-header" id="headingThree">
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <ul>
-                                    <li>Face Scrub</li>
-                                </ul>
+                                Facial Treatments
                             </button>
                         </h5>
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionServices">
                         <div class="card-body">
-                            Face Scrub
+                            <ul>
+                                <li>Face Scrub</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
