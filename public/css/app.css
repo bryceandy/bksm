@@ -10508,7 +10508,7 @@ body {
   left: 0;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 15vh 95vh auto auto 90vh 15vh;
+  grid-template-rows: 15vh 95vh auto auto auto 15vh;
   border: 20px solid #F4F3F4;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -10756,6 +10756,8 @@ body {
   grid-area: 5/1/6/2;
   padding-top: 10vh;
   padding-bottom: 10vh;
+  z-index: -1;
+  padding-right: 50px;
 }
 
 #homeWrapper #clientelle h2 {
@@ -10846,7 +10848,7 @@ body {
 
 @media screen and (max-width: 574px) {
   #homeWrapper {
-    grid-template-rows: 15vh 85vh auto auto 90vh 15vh;
+    grid-template-rows: 15vh 85vh auto auto auto 15vh;
   }
 }
 
@@ -10868,7 +10870,7 @@ body {
 
 @media screen and (max-width: 450px) {
   #homeWrapper {
-    grid-template-rows: 15vh 65vh auto auto 90vh 15vh;
+    grid-template-rows: 15vh 65vh auto auto auto 15vh;
   }
 
   .introAction {
