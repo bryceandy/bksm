@@ -42,7 +42,72 @@
         </div>
 
         <div id="wwd">
-            <h1 class="text-center">Our Services</h1>
+            <h1 class="text-center">Our Services</h1><br />
+
+            <div class="accordion" id="accordionServices">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Massage Therapies
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionServices">
+                        <div class="card-body">
+                            <ul>
+                                <li>Sports Massage</li>
+                                <li>Deep Tissue Massage</li>
+                                <li>Cupping Therapy</li>
+                                <li>Hot Stone Massage</li>
+                                <li>Body Slimming Massage</li>
+                                <li>Prenatal Massage</li>
+                                <li>Aromatherapy Massage</li>
+                                <li>Swedish Massage</li>
+                                <li>Thai Massage</li>
+                                <li>Head Massage</li>
+                                <li>Reflexology</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Waxing Treatments
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionServices">
+                        <div class="card-body">
+                             <ul>
+                                 <li>Brazilian Bikini</li>
+                                 <li>Under Arm</li>
+                                 <li>Full Leg</li>
+                             </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <ul>
+                                    <li>Face Scrub</li>
+                                </ul>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionServices">
+                        <div class="card-body">
+                            Face Scrub
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </div>

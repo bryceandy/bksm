@@ -39,7 +39,7 @@ body{
   left: 0;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 15vh 95vh auto 110vh 15vh;
+  grid-template-rows: 15vh 95vh auto auto 15vh;
   border: 20px solid $c2;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
