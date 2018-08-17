@@ -298,6 +298,7 @@ body{
 
     h2{
       color: $c4;
+      text-align: center;
     }
     .client{
       height: 30vh;
@@ -413,5 +414,10 @@ body{
   }
   .introAction{
     top: 48vh!important;
+  }
+}
+@media screen and (max-width: 396px){
+  .cliClose{
+    display: none;
   }
 }

@@ -10762,6 +10762,7 @@ body {
 
 #homeWrapper #clientelle h2 {
   color: #824CA7;
+  text-align: center;
 }
 
 #homeWrapper #clientelle .client {
@@ -10879,6 +10880,12 @@ body {
 
   .introAction {
     top: 48vh !important;
+  }
+}
+
+@media screen and (max-width: 396px) {
+  .cliClose {
+    display: none;
   }
 }
 
