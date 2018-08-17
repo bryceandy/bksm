@@ -39,7 +39,7 @@ body{
   left: 0;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 15vh 95vh auto auto 110vh 15vh;
+  grid-template-rows: 15vh 95vh auto auto 90vh 15vh;
   border: 20px solid $c2;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -294,19 +294,16 @@ body{
     padding-top: 10vh;
     padding-bottom: 10vh;
 
+    h2{
+      color: $c4;
+    }
     .client{
       height: 30vh;
       padding-top: 1vh;
 
-      img{
-        max-width: 40vw;
-      }
-      .clientInline{
-        display: inline-block;
-        height: 28vh;
-      }
       .card{
         border: 1px solid $c3;
+        height: 28vh;
       }
     }
   }
@@ -389,7 +386,7 @@ body{
 }
 @media screen and (max-width: 574px){
   #homeWrapper{
-    grid-template-rows: 15vh 85vh auto auto 110vh 15vh;
+    grid-template-rows: 15vh 85vh auto auto 90vh 15vh;
   }
 }
 @media screen and (max-width: 500px){
@@ -407,7 +404,7 @@ body{
 }
 @media screen and (max-width: 450px){
   #homeWrapper{
-    grid-template-rows: 15vh 65vh auto auto 110vh 15vh;
+    grid-template-rows: 15vh 65vh auto auto 90vh 15vh;
   }
   .introAction{
     top: 48vh!important;

@@ -10508,7 +10508,7 @@ body {
   left: 0;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 15vh 95vh auto auto 110vh 15vh;
+  grid-template-rows: 15vh 95vh auto auto 90vh 15vh;
   border: 20px solid #F4F3F4;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -10758,22 +10758,18 @@ body {
   padding-bottom: 10vh;
 }
 
+#homeWrapper #clientelle h2 {
+  color: #824CA7;
+}
+
 #homeWrapper #clientelle .client {
   height: 30vh;
   padding-top: 1vh;
 }
 
-#homeWrapper #clientelle .client img {
-  max-width: 40vw;
-}
-
-#homeWrapper #clientelle .client .clientInline {
-  display: inline-block;
-  height: 28vh;
-}
-
 #homeWrapper #clientelle .client .card {
   border: 1px solid #A882C1;
+  height: 28vh;
 }
 
 @media screen and (max-width: 950px) {
@@ -10850,7 +10846,7 @@ body {
 
 @media screen and (max-width: 574px) {
   #homeWrapper {
-    grid-template-rows: 15vh 85vh auto auto 110vh 15vh;
+    grid-template-rows: 15vh 85vh auto auto 90vh 15vh;
   }
 }
 
@@ -10872,7 +10868,7 @@ body {
 
 @media screen and (max-width: 450px) {
   #homeWrapper {
-    grid-template-rows: 15vh 65vh auto auto 110vh 15vh;
+    grid-template-rows: 15vh 65vh auto auto 90vh 15vh;
   }
 
   .introAction {
