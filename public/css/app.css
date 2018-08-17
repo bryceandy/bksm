@@ -10773,12 +10773,25 @@ body {
 #homeWrapper #clientelle .client .card {
   border: 1px solid #A882C1;
   height: 30vh;
-  max-width: 630px;
+  max-width: 794px;
+  color: #824CA7;
 }
 
 @media screen and (max-width: 950px) {
   .introText {
     font-size: 1.8rem !important;
+  }
+}
+
+@media screen and (min-width: 866px) {
+  .client .card {
+    height: 20vh;
+    width: 794px;
+  }
+
+  .client {
+    height: 26vh;
+    padding-top: 3vh;
   }
 }
 
@@ -10848,9 +10861,10 @@ body {
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) and (max-width: 865px) {
   .client .card {
     width: 630px !important;
+    height: 24vh;
   }
 }
 
