@@ -10863,7 +10863,6 @@ body {
 
 @media screen and (min-width: 700px) and (max-width: 865px) {
   .client .card {
-    width: 630px !important;
     height: 24vh;
   }
 }
