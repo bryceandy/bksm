@@ -10702,9 +10702,9 @@ body {
 #homeWrapper #wwd .toggle2,
 #homeWrapper #wwd .toggle3,
 #homeWrapper #wwd .toggle4 {
-  background-color: #D50B53;
+  background-color: #D50B53 !important;
   padding: 1vw;
-  color: #F4F3F4;
+  color: #F4F3F4 !important;
   display: none;
   padding-right: 20px;
 }

@@ -236,9 +236,9 @@ body{
       border-bottom: none;
     }
     .toggle1, .toggle2, .toggle3, .toggle4{
-      background-color: $c1;
+      background-color: $c1!important;
       padding: 1vw;
-      color: $c2;
+      color: $c2!important;
       display: none;
       padding-right:20px;
     }
