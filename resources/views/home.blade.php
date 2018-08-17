@@ -9,7 +9,7 @@
                 <a href="/"><img src="{{'images/bklogo.png'}}" /></a>
             </div>
 
-            <a href="tel:+255786140987">CALL US <i class="fas fa-phone"></i></a>
+            <a href="tel:+255786140987">CALL HERE <i class="fas fa-phone"></i></a>
 
             <div class="nav-links">
                 <a href="/" class="underline">Home</a>
