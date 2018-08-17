@@ -10670,6 +10670,7 @@ body {
   background: #B9C406;
   padding-top: 5vw;
   padding-bottom: 5vw;
+  overflow: hidden;
 }
 
 #homeWrapper #wwd h1 {
@@ -10679,7 +10680,7 @@ body {
 }
 
 #homeWrapper #wwd .services {
-  margin-left: -20px;
+  margin-right: 20px;
 }
 
 #homeWrapper #wwd #serviceGroup1,
@@ -10689,7 +10690,7 @@ body {
   cursor: pointer;
   background-color: #B9C406;
   padding-right: 20px;
-  width: 100%;
+  width: calc(100% - 30px);
 }
 
 #homeWrapper #wwd .toggle1,
