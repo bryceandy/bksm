@@ -226,7 +226,9 @@ body{
       }
       .collapse{
         background-color: $c2!important;
-        color: $c4!important;
+        .card-body{
+          color: $c4!important;
+        }
       }
     }
   }

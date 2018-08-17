@@ -10689,6 +10689,9 @@ body {
 
 #homeWrapper #wwd .card-header .collapse {
   background-color: #F4F3F4 !important;
+}
+
+#homeWrapper #wwd .card-header .collapse .card-body {
   color: #824CA7 !important;
 }
 
