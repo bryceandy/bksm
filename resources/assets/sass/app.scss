@@ -258,11 +258,11 @@ body{
       transition: all .5s;
 
       &.first{
-        -webkit-transform: rotate(45deg) translate(0, -0.3vh);
-        -moz-transform: rotate(45deg) translate(0, -0.3vh);
-        -ms-transform: rotate(45deg) translate(0, -0.3vh);
-        -o-transform: rotate(45deg) translate(0, -0.3vh);
-        transform: rotate(45deg) translate(0, -0.3vh);
+        -webkit-transform: rotate(90deg) translate(0, -0.3vh);
+        -moz-transform: rotate(90deg) translate(0, -0.3vh);
+        -ms-transform: rotate(90deg) translate(0, -0.3vh);
+        -o-transform: rotate(90deg) translate(0, -0.3vh);
+        transform: rotate(90deg) translate(0, -0.3vh);
         -webkit-transform-origin: 50% 50%;
         -moz-transform-origin: 50% 50%;
         -ms-transform-origin: 50% 50%;
