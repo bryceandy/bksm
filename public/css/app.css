@@ -10671,19 +10671,13 @@ body {
   padding-top: 5vw;
   padding-bottom: 5vw;
   overflow: hidden;
-  border-right: 20px solid #F4F3F4;
+  border-right: 50px solid #F4F3F4;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 #homeWrapper #wwd h1 {
   color: #F4F3F4;
-  margin-left: -20px;
-  padding-right: 20px;
-}
-
-#homeWrapper #wwd .services {
-  margin-right: 20px;
 }
 
 #homeWrapper #wwd #serviceGroup1,
@@ -10693,7 +10687,7 @@ body {
   cursor: pointer;
   background-color: #B9C406;
   padding-right: 20px;
-  width: calc(100% - 30px);
+  width: 100%;
 }
 
 #homeWrapper #wwd .toggle1,
