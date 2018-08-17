@@ -44,51 +44,49 @@
             <h1 class="text-center">Our Services</h1>
 
             <div class="w-100 services">
-                <div class="container-fluid">
-                    <button class="w-100 btn-lg" id="serviceGroup1">Massage Therapies <span id="sgicon1" class="text-right"></span></button>
-                    <div class="w-80 toggle1">
-                        <ul>
-                            <li>Sports Massage</li>
-                            <li>Deep-Tissue Massage</li>
-                            <li>Cupping Therapy</li>
-                            <li>Hot-Stone Massage</li>
-                            <li>Body-Slimming Massage</li>
-                            <li>Prenatal Massage</li>
-                            <li>Aromatherapy Massage</li>
-                            <li>Swedish Massage</li>
-                            <li>Thai Massage</li>
-                            <li>Head Massage</li>
-                            <li>Reflexology Massage</li>
-                        </ul>
-                    </div>
+
+                <button class="large" id="serviceGroup1">Massage Therapies <span id="sgicon1" class="text-right"></span></button>
+                <div class="w-80 toggle1">
+                    <ul>
+                        <li>Sports Massage</li>
+                        <li>Deep-Tissue Massage</li>
+                        <li>Cupping Therapy</li>
+                        <li>Hot-Stone Massage</li>
+                        <li>Body-Slimming Massage</li>
+                        <li>Prenatal Massage</li>
+                        <li>Aromatherapy Massage</li>
+                        <li>Swedish Massage</li>
+                        <li>Thai Massage</li>
+                        <li>Head Massage</li>
+                        <li>Reflexology Massage</li>
+                    </ul>
                 </div>
-                <div class="container-fluid">
-                    <button class="w-100 btn-lg" id="serviceGroup2">Waxing Treatments <span id="sgicon2" class="text-right"></span></button>
-                    <div class="w-80 toggle2">
-                        <ul>
-                            <li>Brazilian Bikini</li>
-                            <li>Under Arm</li>
-                            <li>Full Leg</li>
-                            <li>Half Leg</li>
-                            <li>Lip Waxing</li>
-                            <li>Cheek Waxing</li>
-                            <li>Chin</li>
-                            <li>Full Arm</li>
-                            <li>Half Arm</li>
-                            <li>Chest & Stomach</li>
-                            <li>Full Back</li>
-                            <li>Full Body Waxing</li>
-                        </ul>
-                    </div>
+
+                <button class="large" id="serviceGroup2">Waxing Treatments <span id="sgicon2" class="text-right"></span></button>
+                <div class="w-80 toggle2">
+                    <ul>
+                        <li>Brazilian Bikini</li>
+                        <li>Under Arm</li>
+                        <li>Full Leg</li>
+                        <li>Half Leg</li>
+                        <li>Lip Waxing</li>
+                        <li>Cheek Waxing</li>
+                        <li>Chin</li>
+                        <li>Full Arm</li>
+                        <li>Half Arm</li>
+                        <li>Chest & Stomach</li>
+                        <li>Full Back</li>
+                        <li>Full Body Waxing</li>
+                    </ul>
                 </div>
-                <div class="container-fluid">
-                    <button class="w-100 btn-lg" id="serviceGroup3">Facial Treatments <span id="sgicon3" class="text-right"></span></button>
-                    <div class="w-80 toggle3">
-                        <ul>
-                            <li>Full Face Scrub</li>
-                        </ul>
-                    </div>
+
+                <button class="large" id="serviceGroup3">Facial Treatments <span id="sgicon3" class="text-right"></span></button>
+                <div class="w-80 toggle3">
+                    <ul>
+                        <li>Full Face Scrub</li>
+                    </ul>
                 </div>
+
             </div>
 
         </div>
