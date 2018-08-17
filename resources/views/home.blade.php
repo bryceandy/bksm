@@ -45,7 +45,7 @@
 
             <div class="services">
 
-                <button class="btn-lg" id="serviceGroup1">Massage Therapies <span id="sgicon1" class="text-right"></span></button>
+                <button class="btn-lg" id="serviceGroup1">Massage Therapies <span id="sgicon1" class="float-right"><span class="plus"></span><span class="plus"></span></span></button>
                 <div class="w-80 toggle1">
                     <ul>
                         <li>Sports Massage</li>
@@ -63,7 +63,7 @@
                     </ul>
                 </div>
 
-                <button class="btn-lg" id="serviceGroup2">Waxing Treatments <span id="sgicon2" class="text-right"></span></button>
+                <button class="btn-lg" id="serviceGroup2">Waxing Treatments <span id="sgicon2" class="text-right"><span class="plus"></span><span class="plus"></span></span></button>
                 <div class="w-80 toggle2">
                     <ul>
                         <li>Brazilian Bikini</li>
@@ -81,7 +81,7 @@
                     </ul>
                 </div>
 
-                <button class="btn-lg" id="serviceGroup3">Facial Treatments <span id="sgicon3" class="text-right"></span></button>
+                <button class="btn-lg" id="serviceGroup3">Facial Treatments <span id="sgicon3" class="text-right"><span class="plus"></span><span class="plus"></span></span></button>
                 <div class="w-80 toggle3">
                     <ul>
                         <li>Full Face Scrub</li>

@@ -235,7 +235,7 @@ body{
     #serviceGroup1, #serviceGroup2, #serviceGroup3{
       border-bottom: none;
     }
-    .toggle1, .toggle2, .toggle3{
+    .toggle1, .toggle2, .toggle3, .toggle4{
       background-color: $c2;
       padding: 1vw;
       color: $c4;
@@ -244,6 +244,36 @@ body{
     }
     .toggle1.display, .toggle2.display, .toggle3.display{
       display: block;
+    }
+    .plus{
+      display: block;
+      width: 4.5vh;
+      height: .6vh;
+      background-color: $c1;
+      -webkit-transition: all .5s;
+      -moz-transition: all .5s;
+      -ms-transition: all .5s;
+      -o-transition: all .5s;
+      transition: all .5s;
+
+      &:nth-child(first){
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transform-origin: 50% 50%;
+        -moz-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+        -o-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+      }
+    }
+    #sgicon1.rot, #sgicon2.rot, #sgicon3.rot, #sgicon4.rot{
+      .plus:nth-child(first){
+        visibility: hidden;
+        opacity: 0;
+      }
     }
   }
 }

@@ -10700,7 +10700,8 @@ body {
 
 #homeWrapper #wwd .toggle1,
 #homeWrapper #wwd .toggle2,
-#homeWrapper #wwd .toggle3 {
+#homeWrapper #wwd .toggle3,
+#homeWrapper #wwd .toggle4 {
   background-color: #F4F3F4;
   padding: 1vw;
   color: #824CA7;
@@ -10712,6 +10713,30 @@ body {
 #homeWrapper #wwd .toggle2.display,
 #homeWrapper #wwd .toggle3.display {
   display: block;
+}
+
+#homeWrapper #wwd .plus {
+  display: block;
+  width: 4.5vh;
+  height: .6vh;
+  background-color: #D50B53;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#homeWrapper #wwd .plus:nth-child(first) {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+#homeWrapper #wwd #sgicon1.rot .plus:nth-child(first),
+#homeWrapper #wwd #sgicon2.rot .plus:nth-child(first),
+#homeWrapper #wwd #sgicon3.rot .plus:nth-child(first),
+#homeWrapper #wwd #sgicon4.rot .plus:nth-child(first) {
+  visibility: hidden;
+  opacity: 0;
 }
 
 @media screen and (max-width: 950px) {
