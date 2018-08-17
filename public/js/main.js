@@ -22,4 +22,7 @@ var typer = new TypeIt('.introText', {
     .type('Body Slimming, Scrubs, Facials, Waxing, Sauna and many more...')
     .break()
     .pause(2500)
-    .type('Book Us Now.');
+    .type('Book Us Now.')
+    .break()
+    .options({speed: 50})
+    .type('Spa treatments at the comfort of your own home');
