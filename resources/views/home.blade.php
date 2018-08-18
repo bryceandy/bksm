@@ -50,7 +50,7 @@
 
             <div class="services">
 
-                <button class="btn-lg" id="serviceGroup1">Massage Therapies <span id="sgicon1" class="float-right"><span class="plus first"></span><span class="plus"></span></span></button>
+                <button class="btn-lg sg1" id="serviceGroup1">Massage Therapies <span id="sgicon1" class="sg1 float-right"><span class="plus first"></span><span class="plus"></span></span></button>
                 <div class="w-80 toggle1">
                     <ul>
                         <li>Sports Massage</li>
@@ -68,7 +68,7 @@
                     </ul>
                 </div>
 
-                <button class="btn-lg" id="serviceGroup2">Waxing Treatments <span id="sgicon2" class="float-right"><span class="plus first"></span><span class="plus"></span></span></button>
+                <button class="btn-lg sg2" id="serviceGroup2">Waxing Treatments <span id="sgicon2" class="sg2 float-right"><span class="plus first"></span><span class="plus"></span></span></button>
                 <div class="w-80 toggle2">
                     <ul>
                         <li>Brazilian Bikini</li>
@@ -86,14 +86,14 @@
                     </ul>
                 </div>
 
-                <button class="btn-lg" id="serviceGroup3">Facial Treatments <span id="sgicon3" class="float-right"><span class="plus first"></span><span class="plus"></span></span></button>
+                <button class="btn-lg sg3" id="serviceGroup3">Facial Treatments <span id="sgicon3" class="sg3 float-right"><span class="plus first"></span><span class="plus"></span></span></button>
                 <div class="w-80 toggle3">
                     <ul>
                         <li>Full Face Scrub</li>
                     </ul>
                 </div>
 
-                <button class="btn-lg" id="serviceGroup4">ManiPedi Treatments <span id="sgicon4" class="float-right"><span class="plus first"></span><span class="plus"></span></span></button>
+                <button class="btn-lg sg4" id="serviceGroup4">ManiPedi Treatments <span id="sgicon4" class="sg4 float-right"><span class="plus first"></span><span class="plus"></span></span></button>
                 <div class="w-80 toggle4">
                     <ul>
                         <li>Manicure</li>
@@ -160,19 +160,19 @@
 
             $('.underline').css('text-decoration', 'underline');
 
-            $("#serviceGroup1, #sgicon1").click(function(){
+            $(".sg1").click(function(){
                 $(".toggle1").toggleClass('display');
                 $("#sgicon1").toggleClass('rot');
             });
-            $("#serviceGroup2, #sgicon2").click(function(){
+            $(".sg2").click(function(){
                 $(".toggle2").toggleClass('display');
                 $("#sgicon2").toggleClass('rot');
             });
-            $("#serviceGroup3, #sgicon3").click(function(){
+            $(".sg3").click(function(){
                 $(".toggle3").toggleClass('display');
                 $("#sgicon3").toggleClass('rot');
             });
-            $("#serviceGroup4, #sgicon4").click(function(){
+            $(".sg4").click(function(){
                 $(".toggle4").toggleClass('display');
                 $("#sgicon4").toggleClass('rot');
             });
