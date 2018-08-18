@@ -26,7 +26,7 @@ body{
   background: #fff;
 }
 ::-webkit-scrollbar-thumb{
-  background: $c2;
+  background: $c3;
 }
 ::-webkit-scrollbar-button{
   display: none;
@@ -227,7 +227,7 @@ body{
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
 
-    border-right: 45px solid $c2;
+    border-right: 50px solid $c2;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
