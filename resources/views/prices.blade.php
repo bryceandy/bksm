@@ -18,8 +18,8 @@
             <div class="nav-links">
                 <a href="/">Home</a>
                 <a href="http://bksportsmassage.com/#wwd">Services</a>
-                <a href="/prices">Prices</a>
-                <a href="/booking" class="underline">Book Us</a>
+                <a href="/prices" class="underline">Prices</a>
+                <a href="/booking">Book Us</a>
                 <a href="/about">About Us & Contacts</a>
 
                 <div class="menu">
@@ -32,14 +32,14 @@
 
 
 
-@endsection
+        @endsection
 
-@section('scripts')
-    <script type="text/javascript">
-        $(document).ready(function(){
+        @section('scripts')
+            <script type="text/javascript">
+                $(document).ready(function(){
 
-            $('.underline').css('text-decoration', 'underline');
+                    $('.underline').css('text-decoration', 'underline');
 
-        });
-    </script>
+                });
+            </script>
 @endsection

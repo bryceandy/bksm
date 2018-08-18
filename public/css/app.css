@@ -10783,6 +10783,7 @@ body {
   color: #D50B53;
   padding-top: 3vw;
   padding-bottom: 2vw;
+  padding-right: 40px;
 }
 
 #homeWrapper #foot a {
@@ -10908,7 +10909,7 @@ body {
   }
 
   #clientelle {
-    padding-right: 40px;
+    padding-right: 40px !important;
   }
 }
 

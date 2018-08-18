@@ -318,6 +318,7 @@ body{
     color: $c1;
     padding-top: 3vw;
     padding-bottom: 2vw;
+    padding-right: 40px;
 
     a{
       text-decoration: none;
@@ -439,7 +440,7 @@ body{
     border-right: 40px solid $c2;
   }
   #clientelle{
-    padding-right: 40px;
+    padding-right: 40px!important;
   }
 }
 @media screen and (max-width: 450px){

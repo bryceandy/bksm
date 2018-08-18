@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/booking', function () {
     return view('booking');
 });
+
+Route::get('/prices', function () {
+    return view('prices');
+});
