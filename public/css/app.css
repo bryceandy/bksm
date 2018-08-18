@@ -10779,26 +10779,18 @@ body {
 
 #homeWrapper #images {
   grid-area: 6/1/7/2;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
   background-color: #824CA7;
   position: relative;
   z-index: -1;
-}
-
-#homeWrapper #images #img1 {
-  position: absolute;
-  top: 10vh;
-  left: 15vw;
-  height: 30vh;
-  width: auto;
 }
 
 #homeWrapper #images #img2 {
   position: absolute;
   top: 10vh;
   right: 15vw;
-  height: 30vh;
+  height: 44vh;
   width: auto;
 }
 

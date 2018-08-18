@@ -143,7 +143,6 @@
         </div>
 
         <div id="images">
-            <img id="img1" src="{{'/images/client1.JPG'}}" />
             <img id="img2" src="{{'/images/client3.JPG'}}" />
         </div>
 
