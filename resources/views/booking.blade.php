@@ -20,7 +20,7 @@
                 <a href="http://bksportsmassage.com/#wwd">Services</a>
                 <a href="/prices">Prices</a>
                 <a href="/booking" class="underline">Book Us</a>
-                <a href="/about">About Us & Contacts</a>
+                <a href="/about-and-contact">About Us & Contacts</a>
 
                 <div class="menu">
                     <div class="menubar"></div><br />

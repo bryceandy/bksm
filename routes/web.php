@@ -15,10 +15,16 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/prices', function () {
+    return view('prices');
+});
+
 Route::get('/booking', function () {
     return view('booking');
 });
 
-Route::get('/prices', function () {
-    return view('prices');
+Route::get('/about-and-contacts', function () {
+    return view('about');
 });
+
+
