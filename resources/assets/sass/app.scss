@@ -322,10 +322,11 @@ body{
 
     #img2{
       position: absolute;
-      top: 0;
+      top: 3vh;
       right: 15vw;
       height: 44vh;
       width: auto;
+      max-width: calc(70vw - 70px);
     }
   }
   #foot{
