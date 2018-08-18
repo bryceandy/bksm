@@ -225,7 +225,7 @@ body{
     padding-bottom: 7vw;
     overflow: hidden;
     border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
 
     border-right: 45px solid $c2;
     -webkit-box-sizing: border-box;
@@ -439,7 +439,7 @@ body{
     top: 55vh!important;
   }
   #wwd{
-    border-right: 40px solid $c2;
+    border-right: 40px solid $c2!important;
   }
   #clientelle{
     padding-right: 40px!important;
