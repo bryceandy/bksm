@@ -10783,6 +10783,7 @@ body {
   padding-bottom: 5vh;
   background-color: #824CA7;
   position: relative;
+  z-index: -1;
 }
 
 #homeWrapper #images #img1 {
@@ -10791,8 +10792,6 @@ body {
   left: 15vw;
   height: 30vh;
   width: auto;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
 }
 
 #homeWrapper #images #img2 {
@@ -10801,8 +10800,6 @@ body {
   right: 15vw;
   height: 30vh;
   width: auto;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
 }
 
 #homeWrapper #foot {

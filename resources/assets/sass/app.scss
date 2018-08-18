@@ -318,6 +318,7 @@ body{
     padding-bottom: 5vh;
     background-color: $c4;
     position: relative;
+    z-index: -1;
     
     #img1{
       position: absolute;
@@ -325,11 +326,6 @@ body{
       left: 15vw;
       height: 30vh;
       width: auto;
-      -webkit-transform: rotate(45deg);
-      -moz-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      -o-transform: rotate(45deg);
-      transform: rotate(45deg);
     }
     #img2{
       position: absolute;
@@ -337,11 +333,6 @@ body{
       right: 15vw;
       height: 30vh;
       width: auto;
-      -webkit-transform: rotate(-45deg);
-      -moz-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-      -o-transform: rotate(-45deg);
-      transform: rotate(-45deg);
     }
   }
   #foot{
