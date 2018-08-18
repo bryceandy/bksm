@@ -10493,7 +10493,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #A882C1;
+  background: #A882C1 !important;
 }
 
 ::-webkit-scrollbar-button {
