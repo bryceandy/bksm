@@ -10682,6 +10682,8 @@ body {
   padding-top: 5vw;
   padding-bottom: 7vw;
   overflow: hidden;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
   border-right: 45px solid #F4F3F4;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
