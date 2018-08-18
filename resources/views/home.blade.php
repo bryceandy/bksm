@@ -142,17 +142,6 @@
 
         </div>
 
-        <div id="images">
-            <div id="imgcontact">
-                <h3>BK Sports Massage</h3><br />
-                <span class="moto">"Road to Recovery"</span><br /><br />
-                 Talk to Us:<br />
-                info@bksportsmassage.com<br />
-                or call 786 140 987
-            </div>
-            <img id="img2" src="{{'/images/client3.JPG'}}" />
-        </div>
-
         <div id="foot" class="text-center">
 
             2018 &copy;BK Sports Massage<br /><br />

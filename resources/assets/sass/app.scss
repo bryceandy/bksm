@@ -39,7 +39,7 @@ body{
   left: 0;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 15vh 95vh auto auto auto 50vh auto;
+  grid-template-rows: 15vh 95vh auto auto auto auto;
   border: 20px solid $c2;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -312,36 +312,8 @@ body{
       }
     }
   }
-  #images{
-    grid-area: 6/1/7/2;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
-    background-color: $c4;
-    position: relative;
-    z-index: -1;
-
-    #imgcontact{
-      position: absolute;
-      top: 3vh;
-      left: 15vw;
-      text-align: left;
-      color: $c1;
-
-      .moto{
-        color: $c5!important;
-      }
-    }
-    #img2{
-      position: absolute;
-      top: 3vh;
-      right: 15vw;
-      height: 44vh;
-      width: auto;
-      max-width: calc(70vw - 70px);
-    }
-  }
   #foot{
-    grid-area: 7/1/8/2;
+    grid-area: 6/1/7/2;
     background-color: $c2;
     color: $c1;
     padding-top: 3vw;
@@ -451,7 +423,7 @@ body{
 }
 @media screen and (max-width: 574px){
   #homeWrapper{
-    grid-template-rows: 15vh 85vh auto auto auto 50vh auto;
+    grid-template-rows: 15vh 85vh auto auto auto auto;
   }
 }
 @media screen and (max-width: 500px){
@@ -472,7 +444,7 @@ body{
 }
 @media screen and (max-width: 450px){
   #homeWrapper{
-    grid-template-rows: 15vh 65vh auto auto auto 50vh auto;
+    grid-template-rows: 15vh 65vh auto auto auto auto;
   }
   .introAction{
     top: 48vh!important;
