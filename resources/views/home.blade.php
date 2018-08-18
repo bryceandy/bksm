@@ -32,7 +32,7 @@
         <div id="homeIntro">
             <img src="{{'images/bg.jpg'}}" />
             <div class="introText"></div>
-            <button class="introAction">Book an Appointment</button>
+            <button class="introAction" onclick="window.location.href='http://bksportsmassage.com/booking'">Book an Appointment</button>
         </div>
 
         <div id="waw">
