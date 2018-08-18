@@ -10508,7 +10508,7 @@ body {
   left: 0;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 15vh 95vh auto auto auto auto;
+  grid-template-rows: 15vh 95vh auto auto auto 50vh auto;
   border: 20px solid #F4F3F4;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -10777,8 +10777,36 @@ body {
   color: #824CA7;
 }
 
-#homeWrapper #foot {
+#homeWrapper #images {
   grid-area: 6/1/7/2;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: #824CA7;
+  position: relative;
+}
+
+#homeWrapper #images #img1 {
+  position: absolute;
+  top: 10vh;
+  left: 15vw;
+  height: 30vh;
+  width: auto;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#homeWrapper #images #img2 {
+  position: absolute;
+  top: 10vh;
+  right: 15vw;
+  height: 30vh;
+  width: auto;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#homeWrapper #foot {
+  grid-area: 7/1/8/2;
   background-color: #F4F3F4;
   color: #D50B53;
   padding-top: 3vw;
@@ -10792,6 +10820,7 @@ body {
 
 #homeWrapper #foot i {
   color: #B9C406;
+  font-family: FontAwesome;
 }
 
 @media screen and (max-width: 950px) {
@@ -10887,7 +10916,7 @@ body {
 
 @media screen and (max-width: 574px) {
   #homeWrapper {
-    grid-template-rows: 15vh 85vh auto auto auto auto;
+    grid-template-rows: 15vh 85vh auto auto auto 50vh auto;
   }
 }
 
@@ -10913,7 +10942,7 @@ body {
 
 @media screen and (max-width: 450px) {
   #homeWrapper {
-    grid-template-rows: 15vh 65vh auto auto auto auto;
+    grid-template-rows: 15vh 65vh auto auto auto 50vh auto;
   }
 
   .introAction {

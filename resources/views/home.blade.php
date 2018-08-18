@@ -142,10 +142,15 @@
 
         </div>
 
+        <div id="images">
+            <img id="img1" src="{{'/images/client1.JPG'}}" />
+            <img id="img2" src="{{'/images/client3.JPG'}}" />
+        </div>
+
         <div id="foot" class="text-center">
 
             2018 &copy;BK Sports Massage<br /><br />
-            Created with <i class="fas fa-heart"></i> by <a href="http://bryceandy.com">BryceAndy</a>
+            Created with <i class="far fa-heart"></i> by <a href="http://bryceandy.com">BryceAndy</a>
 
         </div>
 
