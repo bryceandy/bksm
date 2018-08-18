@@ -17,7 +17,7 @@
 
             <div class="nav-links">
                 <a href="/" class="underline">Home</a>
-                <a href="#wwd" class="servicesLink">Services</a>
+                <a href="http://bksportsmassage.com/#wwd">Services</a>
                 <a href="/prices">Prices</a>
                 <a href="/booking">Book Us</a>
                 <a href="/about">About Us & Contacts</a>
@@ -175,14 +175,6 @@
             $("#serviceGroup4, #sgicon4").click(function(){
                 $(".toggle4").toggleClass('display');
                 $("#sgicon4").toggleClass('rot');
-            });
-
-            $(".servicesLink").click(function (e) {
-
-                e.preventDefault();
-                $(".nav-links").removeClass('showMenu');
-                TweenMax.to(window, 1.5, {scrollTo:"#wwd"});
-
             });
 
             $("#serviceGroup2").click();
