@@ -320,6 +320,17 @@ body{
     position: relative;
     z-index: -1;
 
+    #imgcontact{
+      position: absolute;
+      top: 3vh;
+      left: 15vw;
+      text-align: left;
+      color: $c1;
+
+      .moto{
+        color: $c5!important;
+      }
+    }
     #img2{
       position: absolute;
       top: 3vh;

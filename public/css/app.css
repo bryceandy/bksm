@@ -10786,6 +10786,18 @@ body {
   z-index: -1;
 }
 
+#homeWrapper #images #imgcontact {
+  position: absolute;
+  top: 3vh;
+  left: 15vw;
+  text-align: left;
+  color: #D50B53;
+}
+
+#homeWrapper #images #imgcontact .moto {
+  color: #B9C406 !important;
+}
+
 #homeWrapper #images #img2 {
   position: absolute;
   top: 3vh;
