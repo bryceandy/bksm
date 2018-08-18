@@ -10788,7 +10788,7 @@ body {
 
 #homeWrapper #images #img2 {
   position: absolute;
-  top: 10vh;
+  top: 0;
   right: 15vw;
   height: 44vh;
   width: auto;
