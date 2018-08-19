@@ -368,6 +368,9 @@ body{
 .pin{
   color: $c1;
 }
+.priceLists li{
+  list-style-type: none;
+}
 @media screen and (max-width: 950px){
   .introText{
     font-size: 1.8rem!important;
