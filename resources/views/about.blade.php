@@ -32,7 +32,7 @@
 
         <div id="appBody">
 
-            <h1>Contact Us</h1>
+            <h1 class="col-6 pin">Contact Us</h1>
 
             <div class="col-6 gree">
 
@@ -42,9 +42,9 @@
                 Or call us:<br />
                 +255 786 140 987
 
-            </div><br /><br />
+            </div><br />
 
-            <h1 class="text-center">About Us</h1>
+            <h1 class="text-center pin">About BK Sports Massage</h1>
 
             <div class="col-12 purp">
                 BK Sports Massage Therapy is a leading provider of the world-renowned licensed massage therapy located in

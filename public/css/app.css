@@ -10858,6 +10858,7 @@ body {
 
 #appBody {
   grid-area: 2/1/3/2;
+  padding-right: 40px;
 }
 
 #appFoot {
