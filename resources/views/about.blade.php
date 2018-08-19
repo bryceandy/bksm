@@ -6,7 +6,7 @@
 
 @section('content')
 
-    <div id="homeWrapper">
+    <div id="appWrapper">
 
         <div id="homeNavi">
             <div class="logo">
