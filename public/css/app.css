@@ -10494,7 +10494,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
   background: #A882C1 !important;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 ::-webkit-scrollbar-button {
