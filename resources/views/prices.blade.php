@@ -30,16 +30,28 @@
             </div>
         </div>
 
+        <div id="appBody">
 
+            <h1 class="text-center pin">Price List</h1>
 
-        @endsection
+        </div>
 
-        @section('scripts')
-            <script type="text/javascript">
-                $(document).ready(function(){
+        <div id="appFoot" class="text-center">
 
-                    $('.underline').css('text-decoration', 'underline');
+            2018 &copy;BK Sports Massage<br /><br />
+            Created with <i class="far fa-heart"></i> by <a href="http://bryceandy.com">BryceAndy</a>
 
-                });
-            </script>
+        </div>
+    </div>
+
+@endsection
+
+@section('scripts')
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            $('.underline').css('text-decoration', 'underline');
+
+        });
+    </script>
 @endsection

@@ -30,7 +30,19 @@
             </div>
         </div>
 
+        <div id="appBody">
 
+            <h1 class="text-center pin">Booking Form</h1>
+
+        </div>
+
+        <div id="appFoot" class="text-center">
+
+            2018 &copy;BK Sports Massage<br /><br />
+            Created with <i class="far fa-heart"></i> by <a href="http://bryceandy.com">BryceAndy</a>
+
+        </div>
+    </div>
 
 @endsection
 
