@@ -361,6 +361,10 @@ body{
 }
 .purp{
   color: $c4;
+
+  .text-right{
+    float: right;
+  }
 }
 .gree{
   color: $c5;

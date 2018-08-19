@@ -10884,6 +10884,10 @@ body {
   color: #824CA7;
 }
 
+.purp .text-right {
+  float: right;
+}
+
 .gree {
   color: #B9C406;
 }
