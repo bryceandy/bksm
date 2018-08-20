@@ -52,6 +52,11 @@
                 </div>
             @endif
 
+            <div class="alert alert-warning alert-dismissible alert-icon-left border-0">
+                <button type="button" class="close" data-dismiss="alert">&Cross;</button>
+                <strong class="text-center">Our mail system is out of service, please use the call service above!</strong>&nbsp;
+            </div>
+
             <div class="col-12">
                 <form action="/booking" method="post">
                     {{csrf_field()}}
