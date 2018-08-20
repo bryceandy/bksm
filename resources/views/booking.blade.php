@@ -52,11 +52,6 @@
                 </div>
             @endif
 
-            <div class="alert alert-danger alert-dismissible alert-icon-left border-0">
-                <button type="button" class="close" data-dismiss="alert">&Cross;</button>
-                <strong class="text-center">{{session('fail')}}</strong>&nbsp;
-            </div>
-
             <div class="col-12">
                 <form action="/booking" method="post">
                     {{csrf_field()}}

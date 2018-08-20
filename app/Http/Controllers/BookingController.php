@@ -25,12 +25,14 @@ class BookingController extends Controller
         $objClient->day = $request->day;
         $objClient->serv = $request->serv;
 
-        if(Mail::to("hello@bryceandy.com")->send(new BookingEmail($objClient)))
+        try
         {
-            return view('booking')->with(['success' => 'Your Request was Successful!']);
+            Mail::to("hello@bryceandy.com")->send(new BookingEmail($objClient));
+            return redirect('/booking')->with(['success' => 'Your Request was Successful!']);
         }
-        else{
-            return view('booking')->with(['fail' => 'Failed Sending Request!']);
+        catch(\Throwable $e)
+        {
+            return redirect('/booking')->with(['fail' => $e->getMessage()]);
         }
     }
 }
