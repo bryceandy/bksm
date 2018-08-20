@@ -371,9 +371,39 @@ body{
 }
 .pin{
   color: $c1;
+  a{
+    text-decoration: none;
+    color: $c5;
+  }
 }
 .priceLists li{
   list-style-type: none;
+}
+[type="date"] {
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+.bookingBtn{
+  font-size: large;
+  color: $c2;
+  background-color: $c1;
+  border-radius: 3px;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+
+  &:hover{
+    color: $c1;
+    background-color: $c2;
+    border: 1px solid $c1;
+  }
 }
 @media screen and (max-width: 950px){
   .introText{

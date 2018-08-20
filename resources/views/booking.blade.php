@@ -34,6 +34,28 @@
 
             <h1 class="text-center pin">Booking Form</h1>
 
+            <div class="col-12">
+                <form action="/booking" method="post">
+                    {{csrf_field()}}
+
+                    <label for="name" class="gree">Name</label>
+                    <input id="name" type="text" class="form-control purp" name="client" /><br />
+
+                    <label for="email" class="gree">Email</label>
+                    <input id="email" type="email" class="form-control purp" name="email" required /><br />
+
+                    <label for="number" class="gree">Phone Number</label>
+                    <input id="number" type="number" class="form-control purp" name="number" required /><br />
+
+                    <label for="day" class="gree">Day</label>
+                    <input type="date" id="day" class="form-control purp" name="day" required /><br />
+
+                    <button type="submit" name="submit" class="float-left bookingBtn">Send Booking</button>
+
+                </form>
+                <br /><br />
+            </div>
+
         </div>
 
         <div id="appFoot" class="text-center">

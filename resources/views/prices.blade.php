@@ -34,7 +34,7 @@
 
             <h1 class="text-center pin">Price List</h1>
 
-            <h2 class="text-left gree col-6">Massage Therapies</h2>
+            <h2 class="text-left gree col-12">Massage Therapies</h2>
             <div class="col-12">
                 <ul class="priceLists">
                     <li class="purp">Sports - 60min <span class="pin text-right">80,000</span></li>
@@ -58,7 +58,7 @@
                 </ul>
             </div><br /><br />
 
-            <h2 class="text-left gree col-6">Waxing Treatments</h2>
+            <h2 class="text-left gree col-12">Waxing Treatments</h2>
             <div class="col-12">
                 <ul class="priceLists">
                     <li class="purp">Brazilian Bikini <span class="pin text-right">25,000</span></li>
@@ -76,7 +76,7 @@
                 </ul>
             </div><br /><br />
 
-            <h2 class="text-left gree col-6">Facial Treatments</h2>
+            <h2 class="text-left gree col-12">Facial Treatments</h2>
             <div class="col-12">
                 <ul class="priceLists">
                     <li class="purp">Face Scrub <span class="pin text-right"></span></li>
@@ -85,13 +85,18 @@
                 </ul>
             </div><br /><br />
 
-            <h2 class="text-left gree col-6">ManiPedi Treatments</h2>
+            <h2 class="text-left gree col-12">ManiPedi Treatments</h2>
             <div class="col-12">
                 <ul class="priceLists">
                     <li class="purp">Manicure <span class="pin text-right"></span></li>
                     <li class="purp">Pedicure <span class="pin text-right"></span></li>
                 </ul>
-            </div><br /><br />
+            </div><br />
+
+            <div class="text-left col-12 pin">
+                All prices listed are in Tanzanian Shillings. For further information <a href="/about-and-contacts">contact us</a>
+            </div>
+            <br /><br />
 
         </div>
 

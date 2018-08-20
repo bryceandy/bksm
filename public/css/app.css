@@ -10896,8 +10896,40 @@ body {
   color: #D50B53;
 }
 
+.pin a {
+  text-decoration: none;
+  color: #B9C406;
+}
+
 .priceLists li {
   list-style-type: none;
+}
+
+[type="date"] {
+  background: #fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;
+}
+
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.bookingBtn {
+  font-size: large;
+  color: #F4F3F4;
+  background-color: #D50B53;
+  border-radius: 3px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.bookingBtn:hover {
+  color: #D50B53;
+  background-color: #F4F3F4;
+  border: 1px solid #D50B53;
 }
 
 @media screen and (max-width: 950px) {
