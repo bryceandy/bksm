@@ -29,6 +29,6 @@ class BookingEmail extends Mailable
      */
     public function build()
     {
-        return $this->from('sender@example.com')->view('mails.book')->text('mails.book_plain');
+        return $this->view('mails.book')->text('mails.book_plain');
     }
 }
