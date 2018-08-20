@@ -64,6 +64,8 @@
                         <li>Thai Massage</li>
                         <li>Head Massage</li>
                         <li>Reflexology Massage</li>
+                        <li>Body Scrub Treatment</li>
+                        <li>Sauna Treatment</li>
                     </ul>
                 </div>
 
@@ -88,7 +90,7 @@
                 <button class="btn-lg sg3" id="serviceGroup3">Facial Treatments <span id="sgicon3" class="sg3 float-right"><span class="plus first"></span><span class="plus"></span></span></button>
                 <div class="w-80 toggle3">
                     <ul>
-                        <li>Face Scrub</li>
+                        <li>Facial Scrub</li>
                         <li>Golden Mask</li>
                         <li>Black Mask</li>
                     </ul>
@@ -99,6 +101,9 @@
                     <ul>
                         <li>Manicure</li>
                         <li>Pedicure</li>
+                        <li>Nail Polish Removal</li>
+                        <li>Nail Polishing</li>
+                        <li>Nail Grooming</li>
                     </ul>
                 </div>
 

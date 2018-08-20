@@ -55,6 +55,8 @@
                     <li class="purp">Thai - 90min <span class="pin text-right">120,000</span></li>
                     <li class="purp">Head - 30min <span class="pin text-right">40,000</span></li>
                     <li class="purp">Reflexology - 30min <span class="pin text-right">40,000</span></li>
+                    <li class="purp">Body Scrub - 60min <span class="pin text-right">80,000</span></li>
+                    <li class="purp">Sauna - 30min <span class="pin text-right">40,000</span></li>
                 </ul>
             </div><br /><br />
 
@@ -79,21 +81,24 @@
             <h2 class="text-left gree col-12">Facial Treatments</h2>
             <div class="col-12">
                 <ul class="priceLists">
-                    <li class="purp">Face Scrub <span class="pin text-right"></span></li>
-                    <li class="purp">Golden Mask <span class="pin text-right"></span></li>
-                    <li class="purp">Black Mask <span class="pin text-right"></span></li>
+                    <li class="purp">Facial Scrub <span class="pin text-right">15,000</span></li>
+                    <li class="purp">Golden Mask <span class="pin text-right">15,000</span></li>
+                    <li class="purp">Black Mask <span class="pin text-right">15,000</span></li>
                 </ul>
             </div><br /><br />
 
             <h2 class="text-left gree col-12">ManiPedi Treatments</h2>
             <div class="col-12">
                 <ul class="priceLists">
-                    <li class="purp">Manicure <span class="pin text-right"></span></li>
-                    <li class="purp">Pedicure <span class="pin text-right"></span></li>
+                    <li class="purp">Manicure <span class="pin text-right">15,000</span></li>
+                    <li class="purp">Pedicure <span class="pin text-right">20,000</span></li>
+                    <li class="purp">Nail Polish Removal <span class="pin text-right">3,000</span></li>
+                    <li class="purp">Nail Polishing <span class="pin text-right">5,000</span></li>
+                    <li class="purp">Nail Grooming <span class="pin text-right">10,000</span></li>
                 </ul>
             </div><br />
 
-            <div class="text-left col-12 pin">
+            <div class="text-left col-12 purp">
                 All prices listed are in Tanzanian Shillings. For further information <a href="/about-and-contacts">contact us</a>
             </div>
             <br /><br />
