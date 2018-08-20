@@ -6,20 +6,6 @@
 
 @section('content')
 
-    @if(session()->has('success'))
-        <div class="alert alert-success alert-dismissible alert-icon-left border-0">
-            <button type="button" class="close" data-dismiss="alert">&Cross;</button>
-            <strong class="text-center">{{session('success')}}</strong>&nbsp;
-        </div>
-    @endif
-
-    @if(session()->has('fail'))
-        <div class="alert alert-danger alert-dismissible alert-icon-left border-0">
-            <button type="button" class="close" data-dismiss="alert">&Cross;</button>
-            <strong class="text-center">{{session('fail')}}</strong>&nbsp;
-        </div>
-    @endif
-
     <div id="appWrapper">
 
         <div id="homeNavi">
@@ -51,6 +37,20 @@
             <div class="text-left col-12 purp">
                 It should be noted that current services are offered at your home or a place of convenience for the client
             </div><br />
+
+            @if(session()->has('success'))
+                <div class="alert alert-success alert-dismissible alert-icon-left border-0">
+                    <button type="button" class="close" data-dismiss="alert">&Cross;</button>
+                    <strong class="text-center">{{session('success')}}</strong>&nbsp;
+                </div>
+            @endif
+
+            @if(session()->has('fail'))
+                <div class="alert alert-danger alert-dismissible alert-icon-left border-0">
+                    <button type="button" class="close" data-dismiss="alert">&Cross;</button>
+                    <strong class="text-center">{{session('fail')}}</strong>&nbsp;
+                </div>
+            @endif
 
             <div class="col-12">
                 <form action="/booking" method="post">
