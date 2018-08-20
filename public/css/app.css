@@ -10924,7 +10924,7 @@ body {
 }
 
 .bookingBtn {
-  font-size: x-large;
+  font-size: larger;
   color: #F4F3F4;
   background-color: #D50B53;
   border-radius: 3px;
@@ -10941,6 +10941,12 @@ body {
 @media screen and (max-width: 950px) {
   .introText {
     font-size: 1.8rem !important;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .alert {
+    height: 100px !important;
   }
 }
 
@@ -11035,6 +11041,12 @@ body {
   }
 }
 
+@media screen and (max-width: 520px) {
+  .alert {
+    height: 140px !important;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .introText {
     font-size: 1.3rem !important;
@@ -11077,6 +11089,12 @@ body {
 
   .client .card {
     height: 32vh;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .alert {
+    height: 180px !important;
   }
 }
 
