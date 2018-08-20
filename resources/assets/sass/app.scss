@@ -389,10 +389,11 @@ body{
   opacity: 0;
 }
 .bookingBtn{
-  font-size: large;
+  font-size: x-large;
   color: $c2;
   background-color: $c1;
   border-radius: 3px;
+  border: 1px solid $c1;
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   -ms-transition: all .5s;
@@ -402,7 +403,6 @@ body{
   &:hover{
     color: $c1;
     background-color: $c2;
-    border: 1px solid $c1;
   }
 }
 @media screen and (max-width: 950px){

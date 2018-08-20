@@ -50,7 +50,10 @@
                     <label for="day" class="gree">Day</label>
                     <input type="date" id="day" class="form-control purp" name="day" required /><br />
 
-                    <button type="submit" name="submit" class="float-left bookingBtn">Send Booking</button>
+                    <label for="serv">Treatments You Require</label>
+                    <textarea name="serv" id="serv" class="form-control purp" required></textarea>
+
+                    <button type="submit" name="submit" class="bookingBtn">Send Booking</button>
 
                 </form>
                 <br /><br />

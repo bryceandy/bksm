@@ -10918,10 +10918,11 @@ body {
 }
 
 .bookingBtn {
-  font-size: large;
+  font-size: x-large;
   color: #F4F3F4;
   background-color: #D50B53;
   border-radius: 3px;
+  border: 1px solid #D50B53;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
@@ -10929,7 +10930,6 @@ body {
 .bookingBtn:hover {
   color: #D50B53;
   background-color: #F4F3F4;
-  border: 1px solid #D50B53;
 }
 
 @media screen and (max-width: 950px) {
