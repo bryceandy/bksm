@@ -6,6 +6,20 @@
 
 @section('content')
 
+    @if(session()->has('success'))
+        <div class="alert alert-success alert-dismissible alert-icon-left border-0">
+            <button type="button" class="close" data-dismiss="alert">&Cross;</button>
+            <strong class="text-center">{{session('success')}}</strong>&nbsp;
+        </div>
+    @endif
+
+    @if(session()->has('fail'))
+        <div class="alert alert-danger alert-dismissible alert-icon-left border-0">
+            <button type="button" class="close" data-dismiss="alert">&Cross;</button>
+            <strong class="text-center">{{session('fail')}}</strong>&nbsp;
+        </div>
+    @endif
+
     <div id="appWrapper">
 
         <div id="homeNavi">
@@ -34,6 +48,10 @@
 
             <h1 class="text-center pin">Booking Form</h1>
 
+            <div class="text-left col-12 purp">
+                It should be noted that current services are offered at your home or a place of convenience for the client
+            </div>
+
             <div class="col-12">
                 <form action="/booking" method="post">
                     {{csrf_field()}}
@@ -51,7 +69,7 @@
                     <input type="date" id="day" class="form-control purp" name="day" required /><br />
 
                     <label for="serv" class="gree">Treatments You Require</label>
-                    <textarea name="serv" id="serv" class="form-control purp" required></textarea><br />
+                    <textarea id="serv" class="form-control purp" name="serv" required></textarea><br />
 
                     <button type="submit" name="submit" class="bookingBtn">Send Request</button>
 

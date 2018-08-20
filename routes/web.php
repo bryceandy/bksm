@@ -22,6 +22,7 @@ Route::get('/prices', function () {
 Route::get('/booking', function () {
     return view('booking');
 });
+Route::post('/booking', 'BookingController@book');
 
 Route::get('/about-and-contacts', function () {
     return view('about');

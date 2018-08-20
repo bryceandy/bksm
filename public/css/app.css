@@ -10905,6 +10905,12 @@ body {
   list-style-type: none;
 }
 
+.alert {
+  height: 60px;
+  line-height: 40px;
+  text-align: center;
+}
+
 [type="date"] {
   background: #fff url("/images/calendar.png") 97% 50% no-repeat;
 }
