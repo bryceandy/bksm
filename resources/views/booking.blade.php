@@ -34,10 +34,6 @@
 
             <h1 class="text-center pin">Booking Form</h1>
 
-            <div class="text-center col-12 purp">
-                It should be noted that current services are offered at your home or a place of convenience for the client
-            </div><br />
-
             @if(session()->has('success'))
                 <div class="alert alert-success alert-dismissible alert-icon-left border-0">
                     <button type="button" class="close" data-dismiss="alert">&Cross;</button>
@@ -79,8 +75,13 @@
                     <button type="submit" name="submit" class="bookingBtn">Send Request</button>
 
                 </form>
-                <br /><br />
+                <br />
+
             </div>
+
+            <div class="text-center col-12 purp">
+                It should be noted that current services are offered at your home or a place of convenience for the client
+            </div><br /><br />
 
         </div>
 

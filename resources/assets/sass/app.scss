@@ -415,6 +415,11 @@ body{
     font-size: 1.8rem!important;
   }
 }
+@media screen and (max-width: 930px){
+  .alert{
+    height: 100px!important;
+  }
+}
 @media screen and (min-width: 866px){
   .client .card{
     height: 20vh;
@@ -507,6 +512,11 @@ body{
     grid-template-rows: 15vh 85vh auto auto auto auto;
   }
 }
+@media screen and (max-width: 520px){
+  .alert{
+    height: 140px!important;
+  }
+}
 @media screen and (max-width: 500px){
   .introText{
     font-size: 1.3rem!important;
@@ -542,5 +552,10 @@ body{
     .card{
       height: 32vh;
     }
+  }
+}
+@media screen and (max-width: 378px){
+  .alert{
+    height: 180px!important;
   }
 }
