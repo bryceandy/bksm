@@ -380,8 +380,8 @@ body{
   list-style-type: none;
 }
 .alert{
-  height: 60px;
-  line-height: 40px;
+  height: 40px;
+  line-height: 20px;
   text-align: center;
 }
 [type="date"] {
@@ -514,7 +514,7 @@ body{
 }
 @media screen and (max-width: 520px){
   .alert{
-    height: 140px!important;
+    height: 80px!important;
   }
 }
 @media screen and (max-width: 500px){
@@ -552,10 +552,5 @@ body{
     .card{
       height: 32vh;
     }
-  }
-}
-@media screen and (max-width: 378px){
-  .alert{
-    height: 180px!important;
   }
 }

@@ -10906,8 +10906,8 @@ body {
 }
 
 .alert {
-  height: 60px;
-  line-height: 40px;
+  height: 40px;
+  line-height: 20px;
   text-align: center;
 }
 
@@ -11043,7 +11043,7 @@ body {
 
 @media screen and (max-width: 520px) {
   .alert {
-    height: 140px !important;
+    height: 80px !important;
   }
 }
 
@@ -11089,12 +11089,6 @@ body {
 
   .client .card {
     height: 32vh;
-  }
-}
-
-@media screen and (max-width: 378px) {
-  .alert {
-    height: 180px !important;
   }
 }
 
