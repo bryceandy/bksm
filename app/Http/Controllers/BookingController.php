@@ -27,10 +27,10 @@ class BookingController extends Controller
 
         if(Mail::to("hello@bryceandy.com")->send(new BookingEmail($objClient)))
         {
-            return view('booking')->with(['success', 'Your Request was Successful!']);
+            return view('booking')->with(['success' => 'Your Request was Successful!']);
         }
         else{
-            return view('booking')->with(['fail', 'Failed Sending Request!']);
+            return view('booking')->with(['fail' => 'Failed Sending Request!']);
         }
     }
 }

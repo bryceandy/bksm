@@ -50,7 +50,7 @@
 
             <div class="text-left col-12 purp">
                 It should be noted that current services are offered at your home or a place of convenience for the client
-            </div>
+            </div><br />
 
             <div class="col-12">
                 <form action="/booking" method="post">
