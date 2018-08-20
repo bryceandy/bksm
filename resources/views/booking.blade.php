@@ -34,7 +34,7 @@
 
             <h1 class="text-center pin">Booking Form</h1>
 
-            <div class="text-left col-12 purp">
+            <div class="text-center col-12 purp">
                 It should be noted that current services are offered at your home or a place of convenience for the client
             </div><br />
 
