@@ -365,16 +365,16 @@ body{
   .text-right{
     float: right;
   }
+  a{
+    text-decoration: none;
+    color: $c5;
+  }
 }
 .gree{
   color: $c5;
 }
 .pin{
   color: $c1;
-  a{
-    text-decoration: none;
-    color: $c5;
-  }
 }
 .priceLists li{
   list-style-type: none;

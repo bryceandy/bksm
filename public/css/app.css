@@ -10888,17 +10888,17 @@ body {
   float: right;
 }
 
+.purp a {
+  text-decoration: none;
+  color: #B9C406;
+}
+
 .gree {
   color: #B9C406;
 }
 
 .pin {
   color: #D50B53;
-}
-
-.pin a {
-  text-decoration: none;
-  color: #B9C406;
 }
 
 .priceLists li {
