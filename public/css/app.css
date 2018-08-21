@@ -10869,9 +10869,9 @@ body {
 #appWrapper #photos .img2,
 #appWrapper #photos .img3 {
   position: absolute;
+  max-height: 40vh;
   height: auto;
-  width: auto;
-  min-width: calc(98vw - 40px) !important;
+  width: calc(98vw - 50px);
   display: block;
   left: calc(50vw - 20px);
   -webkit-transform: translateX(-50%);
@@ -11083,7 +11083,7 @@ body {
   .img1,
   .img2,
   .img3 {
-    height: 40vh !important;
+    width: calc(98vw - 40px) !important;
   }
 
   #photos {
