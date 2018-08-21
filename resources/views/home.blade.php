@@ -151,16 +151,19 @@
 
         <div id="photos">
 
-            <img class="img1" src="{{'/images/client1.JPG'}}" />
-            <img class="img2" src="{{'/images/client2.JPG'}}" />
-            <img class="img3" src="{{'/images/client3.JPG'}}" />
+            <img class="img1 smallp" src="{{'/images/client3small.png'}}" />
+            <img class="img1 largep" src="{{'/images/client3large.png'}}" />
+            <img class="img2 smallp" src="{{'/images/client1small.jpg'}}" />
+            <img class="img2 largep" src="{{'/images/client1large.jpg'}}" />
+            <img class="img3 smallp" src="{{'/images/client2small.jpg'}}" />
+            <img class="img3 largep" src="{{'/images/client2large.jpg'}}" />
 
         </div>
 
         <div id="foot" class="text-center">
 
             2018 &copy;BK Sports Massage<br /><br />
-            Created with <i class="far fa-heart"></i> by <a href="http://bryceandy.com">BryceAndy</a>
+            Created with <i class="far fa-heart"></i> by <a href="http://bryceandy.com" target="_blank">BryceAndy</a>
 
         </div>
 

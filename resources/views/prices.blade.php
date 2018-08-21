@@ -108,7 +108,7 @@
         <div id="appFoot" class="text-center">
 
             2018 &copy;BK Sports Massage<br /><br />
-            Created with <i class="far fa-heart"></i> by <a href="http://bryceandy.com">BryceAndy</a>
+            Created with <i class="far fa-heart"></i> by <a href="http://bryceandy.com" target="_blank">BryceAndy</a>
 
         </div>
     </div>

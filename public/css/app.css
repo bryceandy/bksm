@@ -10878,6 +10878,11 @@ body {
   transform: translateX(-50%);
 }
 
+#homeWrapper #photos .smallp,
+#appWrapper #photos .smallp {
+  display: none;
+}
+
 #homeWrapper #foot,
 #appWrapper #foot {
   grid-area: 7/1/8/2;
@@ -11084,6 +11089,14 @@ body {
   .img2,
   .img3 {
     width: calc(98vw - 40px) !important;
+  }
+
+  .smallp {
+    display: block !important;
+  }
+
+  .largep {
+    display: none;
   }
 
   #photos {

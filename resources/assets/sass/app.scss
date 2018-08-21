@@ -353,6 +353,9 @@ body{
       -o-transform: translateX(-50%);
       transform: translateX(-50%);
     }
+    .smallp{
+      display: none;
+    }
   }
   #foot{
     grid-area: 7/1/8/2;
@@ -544,6 +547,12 @@ body{
 @media screen and (max-width: 574px){
   .img1, .img2, .img3{
     width: calc(98vw - 40px)!important;
+  }
+  .smallp{
+    display: block!important;
+  }
+  .largep{
+    display: none;
   }
   #photos{
     border-right: 40px solid $c2!important;
