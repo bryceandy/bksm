@@ -10871,6 +10871,7 @@ body {
 #appWrapper #photos .img3 {
   position: absolute;
   height: auto;
+  max-height: 116vh;
   width: calc(98vw - 50px);
   display: block;
   left: calc(50vw - 20px);
