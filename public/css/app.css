@@ -10502,7 +10502,7 @@ body {
 }
 
 #homeWrapper {
-  grid-template-rows: 15vh 95vh auto auto auto minmax(120vh, auto) auto;
+  grid-template-rows: 15vh 95vh auto auto auto auto auto;
 }
 
 #appWrapper {
@@ -11086,11 +11086,11 @@ body {
   }
 
   #photos {
-    border-right: 40px solid #F4F3F4;
+    border-right: 40px solid #F4F3F4 !important;
   }
 
   #homeWrapper {
-    grid-template-rows: 15vh 85vh auto auto auto minmax(120vh, auto) auto;
+    grid-template-rows: 15vh 85vh auto auto auto auto auto;
   }
 }
 
@@ -11122,7 +11122,7 @@ body {
 
 @media screen and (max-width: 450px) {
   #homeWrapper {
-    grid-template-rows: 15vh 65vh auto auto auto minmax(120vh, auto) auto;
+    grid-template-rows: 15vh 65vh auto auto auto auto auto;
   }
 
   .introAction {
