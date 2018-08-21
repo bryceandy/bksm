@@ -33,7 +33,7 @@ body{
   display: none;
 }
 #homeWrapper{
-  grid-template-rows: 15vh 95vh auto auto auto 100vh auto;
+  grid-template-rows: 15vh 95vh auto auto auto 110vh auto;
 }
 #appWrapper{
   grid-template-rows: 15vh auto auto;
@@ -324,20 +324,21 @@ body{
     grid-area: 6/1/7/2;
     background-color: $c3;
     position: relative;
+    padding-right: 40px;
 
     .img1{
       top: 5vh;
-      right: 5vw;
+      right: 2vw;
       z-index: 1;
     }
     .img2{
-      top: 30vh;
-      left: 5vw;
+      top: 35vh;
+      left: 2vw;
       z-index: 2;
     }
     .img3{
-      top: 55vh;
-      right: 5vw;
+      top: 65vh;
+      right: 2vw;
       z-index: 3;
     }
     .img1, .img2, .img3{
@@ -536,7 +537,7 @@ body{
 }
 @media screen and (max-width: 574px){
   #homeWrapper{
-    grid-template-rows: 15vh 85vh auto auto auto 100vh auto;
+    grid-template-rows: 15vh 85vh auto auto auto 110vh auto;
   }
 }
 @media screen and (max-width: 520px){
@@ -562,7 +563,7 @@ body{
 }
 @media screen and (max-width: 450px){
   #homeWrapper{
-    grid-template-rows: 15vh 65vh auto auto auto 100vh auto;
+    grid-template-rows: 15vh 65vh auto auto auto 110vh auto;
   }
   .introAction{
     top: 48vh!important;
