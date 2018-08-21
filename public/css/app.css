@@ -10840,6 +10840,7 @@ body {
   background-color: #A882C1;
   position: relative;
   border-right: 50px solid #F4F3F4;
+  min-height: 120vh;
 }
 
 #homeWrapper #photos .img1,
