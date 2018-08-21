@@ -10839,27 +10839,25 @@ body {
   grid-area: 6/1/7/2;
   background-color: #A882C1;
   position: relative;
+  border-right: 40px solid #F4F3F4;
 }
 
 #homeWrapper #photos .img1,
 #appWrapper #photos .img1 {
   top: 5vh;
-  right: calc(40px + 2vw);
   z-index: 1;
 }
 
 #homeWrapper #photos .img2,
 #appWrapper #photos .img2 {
   top: 40vh;
-  left: 2vw;
   z-index: 2;
 }
 
 #homeWrapper #photos .img3,
 #appWrapper #photos .img3 {
   top: 75vh;
-  right: calc(40px + 2vw);
-  z-index: 3;
+  z-index: 1;
 }
 
 #homeWrapper #photos .img1,
@@ -10872,6 +10870,9 @@ body {
   height: 40vh;
   width: auto;
   display: block;
+  left: 50vw;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 #homeWrapper #foot,

@@ -324,27 +324,31 @@ body{
     grid-area: 6/1/7/2;
     background-color: $c3;
     position: relative;
+    border-right: 40px solid $c2;
 
     .img1{
       top: 5vh;
-      right: calc(40px + 2vw);
       z-index: 1;
     }
     .img2{
       top: 40vh;
-      left: 2vw;
       z-index: 2;
     }
     .img3{
       top: 75vh;
-      right: calc(40px + 2vw);
-      z-index: 3;
+      z-index: 1;
     }
     .img1, .img2, .img3{
       position: absolute;
       height: 40vh;
       width: auto;
       display: block;
+      left: 50vw;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%);
     }
   }
   #foot{
