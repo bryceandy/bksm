@@ -342,6 +342,7 @@ body{
       position: absolute;
       height: 40vh;
       width: auto;
+      min-width: calc(98vw - 40px)!important;
       display: block;
       left: calc(50vw - 20px);
       -webkit-transform: translateX(-50%);
@@ -539,6 +540,9 @@ body{
   }
 }
 @media screen and (max-width: 574px){
+  .img1, .img2, .img3{
+
+  }
   #homeWrapper{
     grid-template-rows: 15vh 85vh auto auto auto 120vh auto;
   }
