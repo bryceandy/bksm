@@ -11085,7 +11085,8 @@ body {
 }
 
 @media screen and (min-width: 574px) {
-  .img2 {
+  .img2,
+  .img3 {
     display: none !important;
   }
 }
