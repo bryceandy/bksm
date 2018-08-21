@@ -10502,7 +10502,7 @@ body {
 }
 
 #homeWrapper {
-  grid-template-rows: 15vh 95vh auto auto auto auto;
+  grid-template-rows: 15vh 95vh auto auto auto 100vh auto;
 }
 
 #appWrapper {
@@ -10834,9 +10834,49 @@ body {
   color: #824CA7;
 }
 
+#homeWrapper #photos,
+#appWrapper #photos {
+  grid-area: 6/1/7/2;
+  background-color: #A882C1;
+  position: relative;
+}
+
+#homeWrapper #photos .img1,
+#appWrapper #photos .img1 {
+  top: 5vh;
+  right: 5vw;
+  z-index: 1;
+}
+
+#homeWrapper #photos .img2,
+#appWrapper #photos .img2 {
+  top: 30vh;
+  left: 5vw;
+  z-index: 2;
+}
+
+#homeWrapper #photos .img3,
+#appWrapper #photos .img3 {
+  top: 55vh;
+  right: 5vw;
+  z-index: 3;
+}
+
+#homeWrapper #photos .img1,
+#homeWrapper #photos .img2,
+#homeWrapper #photos .img3,
+#appWrapper #photos .img1,
+#appWrapper #photos .img2,
+#appWrapper #photos .img3 {
+  position: absolute;
+  height: 40vh;
+  width: auto;
+  display: block;
+}
+
 #homeWrapper #foot,
 #appWrapper #foot {
-  grid-area: 6/1/7/2;
+  grid-area: 7/1/8/2;
   background-color: #F4F3F4;
   color: #D50B53;
   padding-top: 3vw;
@@ -11037,7 +11077,7 @@ body {
 
 @media screen and (max-width: 574px) {
   #homeWrapper {
-    grid-template-rows: 15vh 85vh auto auto auto auto;
+    grid-template-rows: 15vh 85vh auto auto auto 100vh auto;
   }
 }
 
@@ -11069,7 +11109,7 @@ body {
 
 @media screen and (max-width: 450px) {
   #homeWrapper {
-    grid-template-rows: 15vh 65vh auto auto auto auto;
+    grid-template-rows: 15vh 65vh auto auto auto 100vh auto;
   }
 
   .introAction {
@@ -11091,6 +11131,4 @@ body {
     height: 32vh;
   }
 }
-
-/*eyilmunzfyabzkzh*/
 

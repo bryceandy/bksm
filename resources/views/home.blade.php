@@ -113,7 +113,7 @@
 
         <div id="clientelle">
 
-            <h2 text-center>What Our Clients Say</h2><br />
+            <h2>What Our Clients Say</h2><br />
 
             <div id="client1" class="client">
                 <div class="card w-70">
@@ -146,6 +146,14 @@
                 </div>
 
             </div>
+
+        </div>
+
+        <div id="photos">
+
+            <img class="img1" src="{{'/images/client1.JPG'}}" />
+            <img class="img2" src="{{'/images/client2.JPG'}}" />
+            <img class="img3" src="{{'/images/client3.JPG'}}" />
 
         </div>
 

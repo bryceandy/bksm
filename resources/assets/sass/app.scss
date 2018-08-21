@@ -33,7 +33,7 @@ body{
   display: none;
 }
 #homeWrapper{
-  grid-template-rows: 15vh 95vh auto auto auto auto;
+  grid-template-rows: 15vh 95vh auto auto auto 100vh auto;
 }
 #appWrapper{
   grid-template-rows: 15vh auto auto;
@@ -320,8 +320,35 @@ body{
       }
     }
   }
-  #foot{
+  #photos{
     grid-area: 6/1/7/2;
+    background-color: $c3;
+    position: relative;
+
+    .img1{
+      top: 5vh;
+      right: 5vw;
+      z-index: 1;
+    }
+    .img2{
+      top: 30vh;
+      left: 5vw;
+      z-index: 2;
+    }
+    .img3{
+      top: 55vh;
+      right: 5vw;
+      z-index: 3;
+    }
+    .img1, .img2, .img3{
+      position: absolute;
+      height: 40vh;
+      width: auto;
+      display: block;
+    }
+  }
+  #foot{
+    grid-area: 7/1/8/2;
     background-color: $c2;
     color: $c1;
     padding-top: 3vw;
@@ -509,7 +536,7 @@ body{
 }
 @media screen and (max-width: 574px){
   #homeWrapper{
-    grid-template-rows: 15vh 85vh auto auto auto auto;
+    grid-template-rows: 15vh 85vh auto auto auto 100vh auto;
   }
 }
 @media screen and (max-width: 520px){
@@ -535,7 +562,7 @@ body{
 }
 @media screen and (max-width: 450px){
   #homeWrapper{
-    grid-template-rows: 15vh 65vh auto auto auto auto;
+    grid-template-rows: 15vh 65vh auto auto auto 100vh auto;
   }
   .introAction{
     top: 48vh!important;
@@ -554,4 +581,4 @@ body{
     }
   }
 }
-/*eyilmunzfyabzkzh*/
+
