@@ -10502,7 +10502,7 @@ body {
 }
 
 #homeWrapper {
-  grid-template-rows: 15vh 95vh auto auto auto 120vh auto;
+  grid-template-rows: 15vh 95vh auto auto auto minmax(120vh, auto) auto;
 }
 
 #appWrapper {
@@ -10839,7 +10839,7 @@ body {
   grid-area: 6/1/7/2;
   background-color: #A882C1;
   position: relative;
-  border-right: 40px solid #F4F3F4;
+  border-right: 50px solid #F4F3F4;
 }
 
 #homeWrapper #photos .img1,
@@ -10857,6 +10857,7 @@ body {
 #homeWrapper #photos .img3,
 #appWrapper #photos .img3 {
   top: 75vh;
+  bottom: 5vh;
   z-index: 1;
 }
 
@@ -10867,7 +10868,7 @@ body {
 #appWrapper #photos .img2,
 #appWrapper #photos .img3 {
   position: absolute;
-  height: 40vh;
+  height: auto;
   width: auto;
   min-width: calc(98vw - 40px) !important;
   display: block;
@@ -11078,8 +11079,18 @@ body {
 }
 
 @media screen and (max-width: 574px) {
+  .img1,
+  .img2,
+  .img3 {
+    height: 40vh !important;
+  }
+
+  #photos {
+    border-right: 40px solid #F4F3F4;
+  }
+
   #homeWrapper {
-    grid-template-rows: 15vh 85vh auto auto auto 120vh auto;
+    grid-template-rows: 15vh 85vh auto auto auto minmax(120vh, auto) auto;
   }
 }
 
@@ -11111,7 +11122,7 @@ body {
 
 @media screen and (max-width: 450px) {
   #homeWrapper {
-    grid-template-rows: 15vh 65vh auto auto auto 120vh auto;
+    grid-template-rows: 15vh 65vh auto auto auto minmax(120vh, auto) auto;
   }
 
   .introAction {
