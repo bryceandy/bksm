@@ -29,6 +29,8 @@ class BookingEmail extends Mailable
      */
     public function build()
     {
-        return $this->from('booking@bksportsmassage.com', 'Booking')->view('mails.book')->text('mails.book_plain');
+        return $this->from('booking@bksportsmassage.com', 'Booking')
+                    ->view('mails.book')
+                    ->text('mails.book_plain');
     }
 }

@@ -11,7 +11,7 @@ class BookingController extends Controller
     public function book(Request $request)
     {
         $this->validate($request, [
-            'name' => 'min:3',
+            'client' => 'min:3',
             'email' => 'required|email',
             'number' => 'required',
             'day' => 'required|date',
@@ -19,7 +19,7 @@ class BookingController extends Controller
         ]);
 
         $objClient = new \stdClass();
-        $objClient->name = $request->name;
+        $objClient->name = $request->client;
         $objClient->email = $request->email;
         $objClient->number = $request->number;
         $objClient->day = $request->day;
@@ -27,7 +27,7 @@ class BookingController extends Controller
 
         try
         {
-            Mail::to('hello@bryceandy.com')->send(new BookingEmail($objClient));
+            Mail::to('info@bksportsmassage.com')->send(new BookingEmail($objClient));
             return redirect('/booking')->with(['success' => 'Your Request was Successful!']);
         }
         catch(\Throwable $e)
