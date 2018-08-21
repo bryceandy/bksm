@@ -10841,11 +10841,12 @@ body {
   position: relative;
   border-right: 50px solid #F4F3F4;
   min-height: 120vh;
+  height: auto;
 }
 
 #homeWrapper #photos .img1,
 #appWrapper #photos .img1 {
-  top: 5vh;
+  top: 2vh;
   z-index: 1;
 }
 
@@ -10869,7 +10870,6 @@ body {
 #appWrapper #photos .img2,
 #appWrapper #photos .img3 {
   position: absolute;
-  max-height: 40vh;
   height: auto;
   width: calc(98vw - 50px);
   display: block;
@@ -11089,6 +11089,7 @@ body {
   .img2,
   .img3 {
     width: calc(98vw - 40px) !important;
+    max-height: 40vh !important;
   }
 
   .smallp {
