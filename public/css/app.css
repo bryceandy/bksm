@@ -10870,7 +10870,7 @@ body {
   height: 40vh;
   width: auto;
   display: block;
-  left: 50vw;
+  left: calc(50vw - 20px);
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
