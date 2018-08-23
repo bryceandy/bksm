@@ -47,10 +47,10 @@ new ScrollMagic.Scene({
     .addTo(controller);
 
 new ScrollMagic.Scene({
-    triggerElement: "#bgimage img",
+    triggerElement: "#bgimage",
     triggerHook: "onEnter",
     offset:-200,
     duration: window.innerHeight * 0.5
 })
-    .setTween(TweenMax.to("#bgimage img", 7, {rotation: 30}))
+    .setTween(TweenMax.to("#bgimage", 7, {rotation: 30}))
     .addTo(controller);

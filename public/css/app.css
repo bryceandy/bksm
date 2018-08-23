@@ -10693,6 +10693,12 @@ body {
   width: 80%;
 }
 
+#homeWrapper #waw #bgimage,
+#appWrapper #waw #bgimage {
+  -webkit-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+}
+
 #homeWrapper #waw #bgimage img,
 #appWrapper #waw #bgimage img {
   position: absolute;
@@ -10702,8 +10708,6 @@ body {
   width: auto;
   opacity: 0.6;
   z-index: -2;
-  -webkit-transform: rotate(-22.5deg);
-  transform: rotate(-22.5deg);
 }
 
 #homeWrapper #wwd,
