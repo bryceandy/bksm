@@ -10840,25 +10840,23 @@ body {
   background-color: #A882C1;
   position: relative;
   border-right: 50px solid #F4F3F4;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
   height: auto;
   min-height: 44vh;
   max-height: 120vh;
-  z-index: -1;
+  z-index: -2;
 }
 
 #homeWrapper #photos .img1,
 #appWrapper #photos .img1 {
   position: absolute;
-  height: auto;
-  max-height: 116vh;
-  min-height: 40vh;
-  width: calc(96vw - 50px);
-  display: block;
   top: 2vh;
   bottom: 2vh;
   left: calc(50vw - 20px);
+  display: block;
+  height: auto;
+  width: calc(96vw - 50px);
+  max-height: 116vh;
+  min-height: 40vh;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
