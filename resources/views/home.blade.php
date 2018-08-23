@@ -153,10 +153,10 @@
 
             <img class="img1 smallp" src="{{'/images/client3small.png'}}" />
             <img class="img1 largep" src="{{'/images/client3large.png'}}" />
-            <img class="img2 smallp" src="{{'/images/client1small.jpg'}}" />
+            {{--<img class="img2 smallp" src="{{'/images/client1small.jpg'}}" />
             <img class="img2 largep" src="{{'/images/client1large.jpg'}}" />
             <img class="img3 smallp" src="{{'/images/client2small.jpg'}}" />
-            <img class="img3 largep" src="{{'/images/client2large.jpg'}}" />
+            <img class="img3 largep" src="{{'/images/client2large.jpg'}}" />--}}
 
         </div>
 

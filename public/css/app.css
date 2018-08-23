@@ -10840,39 +10840,17 @@ body {
   background-color: #A882C1;
   position: relative;
   border-right: 50px solid #F4F3F4;
-  min-height: 120vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   height: auto;
 }
 
 #homeWrapper #photos .img1,
 #appWrapper #photos .img1 {
-  top: 2vh;
-  z-index: 1;
-}
-
-#homeWrapper #photos .img2,
-#appWrapper #photos .img2 {
-  top: 40vh;
-  z-index: 2;
-}
-
-#homeWrapper #photos .img3,
-#appWrapper #photos .img3 {
-  top: 75vh;
-  bottom: 5vh;
-  z-index: 1;
-}
-
-#homeWrapper #photos .img1,
-#homeWrapper #photos .img2,
-#homeWrapper #photos .img3,
-#appWrapper #photos .img1,
-#appWrapper #photos .img2,
-#appWrapper #photos .img3 {
   position: absolute;
   height: auto;
   max-height: 116vh;
-  width: calc(98vw - 50px);
+  width: calc(96vw - 50px);
   display: block;
   left: calc(50vw - 20px);
   -webkit-transform: translateX(-50%);
@@ -11085,19 +11063,9 @@ body {
   }
 }
 
-@media screen and (min-width: 574px) {
-  .img2,
-  .img3 {
-    display: none !important;
-  }
-}
-
 @media screen and (max-width: 574px) {
-  .img1,
-  .img2,
-  .img3 {
-    width: calc(98vw - 40px) !important;
-    max-height: 40vh !important;
+  .img1 {
+    width: calc(96vw - 40px) !important;
   }
 
   .smallp {
