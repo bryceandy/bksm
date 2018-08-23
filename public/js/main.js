@@ -46,7 +46,6 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
     triggerElement: ".para",
     triggerHook: "onCenter",
-    offset: -50,
     reverse: false
 })
     .setTween(TweenMax.from(".para", 1, {y: 450, autoAlpha: 0.0, ease: Power1.easeIn}))
