@@ -10837,12 +10837,13 @@ body {
 #homeWrapper #photos,
 #appWrapper #photos {
   grid-area: 6/1/7/2;
-  background-color: #A882C1;
+  /*background-color: $c3;*/
   position: relative;
   border-right: 50px solid #F4F3F4;
   padding-top: 2vh;
   padding-bottom: 2vh;
   height: auto;
+  z-index: -1;
 }
 
 #homeWrapper #photos .img1,
@@ -10855,6 +10856,7 @@ body {
   left: calc(50vw - 20px);
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
+  opacity: 0.7;
 }
 
 #homeWrapper #photos .smallp,
@@ -10870,6 +10872,7 @@ body {
   padding-top: 3vw;
   padding-bottom: 2vw;
   padding-right: 40px;
+  z-index: 5;
 }
 
 #homeWrapper #foot a,
