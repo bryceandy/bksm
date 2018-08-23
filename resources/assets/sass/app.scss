@@ -330,6 +330,7 @@ body{
     height: auto;
     min-height: 44vh;
     max-height: 120vh;
+    z-index: -1;
 
     .img1{
       position: absolute;
@@ -339,6 +340,7 @@ body{
       width: calc(96vw - 50px);
       display: block;
       top:2vh;
+      bottom: 2vh;
       left: calc(50vw - 20px);
       -webkit-transform: translateX(-50%);
       -moz-transform: translateX(-50%);

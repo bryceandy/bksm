@@ -10845,6 +10845,7 @@ body {
   height: auto;
   min-height: 44vh;
   max-height: 120vh;
+  z-index: -1;
 }
 
 #homeWrapper #photos .img1,
@@ -10856,6 +10857,7 @@ body {
   width: calc(96vw - 50px);
   display: block;
   top: 2vh;
+  bottom: 2vh;
   left: calc(50vw - 20px);
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
