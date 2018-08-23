@@ -37,6 +37,7 @@ var controller = new ScrollMagic.Controller();
 new ScrollMagic.Scene({
     triggerElement: "#waw h1",
     triggerHook: "onEnter",
+    offset: 150,
     reverse: false
 })
     .setTween(TweenMax.from("#waw h1", 1, {x: 450, autoAlpha: 0.0, ease: Power1.easeIn}))
@@ -45,18 +46,19 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
     triggerElement: ".para",
     triggerHook: "onCenter",
+    offset: 150,
     reverse: false
 })
-    .setTween(TweenMax.from(".para", 1, {y: -450, autoAlpha: 0.0, ease: Power1.easeIn}))
+    .setTween(TweenMax.from(".para", 1, {y: 450, autoAlpha: 0.0, ease: Power1.easeIn}))
     .addTo(controller);
 
 new ScrollMagic.Scene({
-    triggerElement: "#bgimg",
+    triggerElement: "#bgimage",
     triggerHook: "onEnter",
     offset:-200,
     duration: window.innerHeight * 0.5
 })
-    .setTween(TweenMax.to("#bgimg", 7, {rotation: 30}))
+    .setTween(TweenMax.to("#bgimage", 3, {rotation: 30}))
     .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -68,9 +70,25 @@ new ScrollMagic.Scene({
     .addTo(controller);
 
 new ScrollMagic.Scene({
-    triggerElement: ".client .card",
+    triggerElement: "#client1",
     triggerHook: "onEnter",
     reverse: false
 })
-    .setTween(TweenMax.from(".client .card", 1, {scale:0.7}))
+    .setTween(TweenMax.from("#client1", 1, {scale:0.7}))
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: "#client2",
+    triggerHook: "onEnter",
+    reverse: false
+})
+    .setTween(TweenMax.from("#client2", 1, {scale:0.7}))
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: "#client3",
+    triggerHook: "onEnter",
+    reverse: false
+})
+    .setTween(TweenMax.from("#client3", 1, {scale:0.7}))
     .addTo(controller);
