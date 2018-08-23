@@ -19,6 +19,7 @@
     <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
     <link rel="stylesheet" href="{{'css/app.css'}}">
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery.nicescroll@3.7.6/jquery.nicescroll.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.1/dist/typeit.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
@@ -41,6 +42,14 @@
 
         $(".menu").click(function(){
             $(".nav-links").toggleClass('showMenu');
+        });
+
+        $("html").niceScroll({
+            cursorcolor:"#A882C1",
+            cursorwidth:"9px",
+            background:"#fff",
+            cursorborder:"1px solid #A882C1",
+            cursorborderradius:6
         });
 
     });
