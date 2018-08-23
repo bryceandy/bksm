@@ -440,9 +440,25 @@ body{
     background-color: $c2;
   }
 }
+@media screen and (min-width: 1012px){
+  #photos{
+    min-height: 120vh!important;
+    height: auto!important;
+  }
+}
+@media screen and (max-width: 1012px) and (min-width: 931px){
+  #photos{
+    min-height: 114vh!important;
+  }
+}
 @media screen and (max-width: 950px){
   .introText{
     font-size: 1.8rem!important;
+  }
+}
+@media screen and (max-width: 930px) and (min-width: 848px){
+  #photos{
+    min-height: 104vh!important;
   }
 }
 @media screen and (max-width: 930px){
@@ -459,6 +475,11 @@ body{
   .client{
     height: 26vh;
     padding-top: 3vh;
+  }
+}
+@media screen and (max-width: 847px) and (min-width: 760px){
+  #photos{
+    min-height: 94vh!important;
   }
 }
 @media screen and (max-width: 800px){
@@ -532,9 +553,19 @@ body{
     }
   }
 }
+@media screen and (max-width: 759px) and (min-width: 662px){
+  #photos{
+    min-height: 84vh!important;
+  }
+}
 @media screen and (min-width: 700px) and (max-width: 865px){
   .client .card{
     height: 24vh;
+  }
+}
+@media screen and (max-width: 661px) and (min-width: 565px){
+  #photos{
+    min-height: 74vh!important;
   }
 }
 @media screen and (max-width: 574px){
@@ -552,6 +583,11 @@ body{
   }
   #homeWrapper{
     grid-template-rows: 15vh 85vh auto auto auto auto auto;
+  }
+}
+@media screen and (max-width: 564px) and (min-width: 484px){
+  #photos{
+    min-height: 64vh!important;
   }
 }
 @media screen and (max-width: 520px){
@@ -573,6 +609,14 @@ body{
   }
   #clientelle{
     padding-right: 40px!important;
+  }
+}
+@media screen and (max-width: 483px) and (min-width: 417px){
+  #photos{
+    min-height: 54vh!important;
+    .img1{
+      min-height: 50vh!important;
+    }
   }
 }
 @media screen and (max-width: 450px){
