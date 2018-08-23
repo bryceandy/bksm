@@ -42,7 +42,7 @@
                 BK Sports Massage is a name synonymous with wellness, comfort and rejuvenation. This Heritage Sports massage & Spa in Dar Es Salaam offers you a chance to let us release your tension with various kinds of massages, body treatments, scrubs, body wrap, facials ManiPedi treatments and other packages.
                 <span class="wawDelete">Our happiness lies in ensuring that we soothe you’re the soreness in your muscles, improve your sleep, boost the immune system function, increase mental alertness, ease the effects of cancer treatment, aid headache sufferers, alleviate depression and ultimately stress levels.</span>
             </div>
-            <div id="bgimage"><img src="{{'/images/bklogobare.jpg'}}" /></div>
+            <div id="bgimage"><img id="#bgimg" src="{{'/images/bklogobare.jpg'}}" /></div>
         </div>
 
         <div id="wwd">
@@ -70,7 +70,7 @@
 
                 <button class="btn-lg sg2" id="serviceGroup2">Massage Therapies <span id="sgicon2" class="sg2 float-right"><span class="plus first"></span><span class="plus"></span></span></button>
                 <div class="w-80 toggle2">
-                    <ul>
+                    <ul class="stagger">
                         <li>Sports Massage</li>
                         <li>Deep-Tissue Massage</li>
                         <li>Cupping Therapy</li>

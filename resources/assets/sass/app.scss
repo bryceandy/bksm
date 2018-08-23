@@ -213,11 +213,6 @@ body{
       width: 80%;
     }
     #bgimage{
-      -webkit-transform: rotate(-30deg);
-      -moz-transform: rotate(-30deg);
-      -ms-transform: rotate(-30deg);
-      -o-transform: rotate(-30deg);
-      transform: rotate(-30deg);
       img{
         position: absolute;
         display: block;
@@ -226,6 +221,11 @@ body{
         width: auto;
         opacity: 0.6;
         z-index: -2;
+        -webkit-transform: rotate(-30deg);
+        -moz-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg);
+        -o-transform: rotate(-30deg);
+        transform: rotate(-30deg);
       }
     }
   }

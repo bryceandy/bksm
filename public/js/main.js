@@ -27,6 +27,10 @@ var typer = new TypeIt('.introText', {
     .options({speed: 50})
     .type('Spa treatments at the comfort of your own home');
 
+var tl = new TimelineMax();
+tl.staggerFrom(".stagger li", 0.5, {opacity:0, cycle:{x:function(i){return i*40;}, ease:function(i){return Back.easeOut;}}}, 0.2);
+tl.timeScale(0.5);
+
 //scrollmagic animations
 var controller = new ScrollMagic.Controller();
 
@@ -47,10 +51,26 @@ new ScrollMagic.Scene({
     .addTo(controller);
 
 new ScrollMagic.Scene({
-    triggerElement: "#bgimage",
+    triggerElement: "#bgimg",
     triggerHook: "onEnter",
     offset:-200,
     duration: window.innerHeight * 0.5
 })
-    .setTween(TweenMax.to("#bgimage", 7, {rotation: 30}))
+    .setTween(TweenMax.to("#bgimg", 7, {rotation: 30}))
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: ".toggle2",
+    triggerHook: "onCenter",
+    reverse: false
+})
+    .setTween(tl)
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: ".client .card",
+    triggerHook: "onEnter",
+    reverse: false
+})
+    .setTween(TweenMax.from(".client .card", 1, {scale:0.7}))
     .addTo(controller);
