@@ -322,20 +322,23 @@ body{
   }
   #photos{
     grid-area: 6/1/7/2;
-    /*background-color: $c3;*/
+    background-color: $c3;
     position: relative;
     border-right: 50px solid $c2;
     padding-top: 2vh;
     padding-bottom: 2vh;
     height: auto;
-    min-height: max-content;
+    min-height: 44vh;
+    max-height: 120vh;
 
     .img1{
       position: absolute;
       height: auto;
       max-height: 116vh;
+      min-height: 40vh;
       width: calc(96vw - 50px);
       display: block;
+      top:2vh;
       left: calc(50vw - 20px);
       -webkit-transform: translateX(-50%);
       -moz-transform: translateX(-50%);
