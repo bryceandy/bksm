@@ -46,10 +46,10 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
     triggerElement: ".para",
     triggerHook: "onEnter",
-    offset: 200,
+    offset: 100,
     reverse: false
 })
-    .setTween(TweenMax.from(".para", .5, {y: 350, autoAlpha: 0.0, ease: Power1.easeIn}))
+    .setTween(TweenMax.from(".para", .5, {y: 250, autoAlpha: 0.0, ease: Power1.easeIn}))
     .addTo(controller);
 
 new ScrollMagic.Scene({
