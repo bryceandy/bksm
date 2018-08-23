@@ -26,3 +26,31 @@ var typer = new TypeIt('.introText', {
     .break()
     .options({speed: 50})
     .type('Spa treatments at the comfort of your own home');
+
+//scrollmagic animations
+var controller = new ScrollMagic.Controller();
+
+new ScrollMagic.Scene({
+    triggerElement: "#waw h1",
+    triggerHook: "onEnter",
+    reverse: false
+})
+    .setTween(TweenMax.from("#waw h1", 1, {x: 450, autoAlpha: 0.0, ease: Power1.easeIn}))
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: ".para",
+    triggerHook: "onCenter",
+    reverse: false
+})
+    .setTween(TweenMax.from(".para", 1, {y: -450, autoAlpha: 0.0, ease: Power1.easeIn}))
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: "#bgimage img",
+    triggerHook: "onEnter",
+    offset:-200,
+    duration: window.innerHeight * 0.5
+})
+    .setTween(TweenMax.to("#bgimage img", 7, {rotation: 30}))
+    .addTo(controller);

@@ -20,7 +20,7 @@
                 <a href="http://bksportsmassage.com/#wwd">Services</a>
                 <a href="/prices">Prices</a>
                 <a href="/booking">Book Us</a>
-                <a href="/about-and-contacts">About Us & Contacts</a>
+                <a href="/about-and-contacts">About & Contacts</a>
 
                 <div class="menu">
                     <div class="menubar"></div><br />
@@ -50,8 +50,26 @@
 
             <div class="services">
 
-                <button class="btn-lg sg1" id="serviceGroup1">Massage Therapies <span id="sgicon1" class="sg1 float-right"><span class="plus first"></span><span class="plus"></span></span></button>
+                <button class="btn-lg sg1" id="serviceGroup1">Waxing Treatments <span id="sgicon1" class="sg1 float-right"><span class="plus first"></span><span class="plus"></span></span></button>
                 <div class="w-80 toggle1">
+                    <ul>
+                        <li>Brazilian Bikini</li>
+                        <li>Under Arm</li>
+                        <li>Full Leg</li>
+                        <li>Half Leg</li>
+                        <li>Lip Waxing</li>
+                        <li>Cheek Waxing</li>
+                        <li>Chin</li>
+                        <li>Full Arm</li>
+                        <li>Half Arm</li>
+                        <li>Chest & Stomach</li>
+                        <li>Full Back</li>
+                        <li>Full Body Waxing</li>
+                    </ul>
+                </div>
+
+                <button class="btn-lg sg2" id="serviceGroup2">Massage Therapies <span id="sgicon2" class="sg2 float-right"><span class="plus first"></span><span class="plus"></span></span></button>
+                <div class="w-80 toggle2">
                     <ul>
                         <li>Sports Massage</li>
                         <li>Deep-Tissue Massage</li>
@@ -66,24 +84,6 @@
                         <li>Reflexology Massage</li>
                         <li>Body Scrub Treatment</li>
                         <li>Sauna Treatment</li>
-                    </ul>
-                </div>
-
-                <button class="btn-lg sg2" id="serviceGroup2">Waxing Treatments <span id="sgicon2" class="sg2 float-right"><span class="plus first"></span><span class="plus"></span></span></button>
-                <div class="w-80 toggle2">
-                    <ul>
-                        <li>Brazilian Bikini</li>
-                        <li>Under Arm</li>
-                        <li>Full Leg</li>
-                        <li>Half Leg</li>
-                        <li>Lip Waxing</li>
-                        <li>Cheek Waxing</li>
-                        <li>Chin</li>
-                        <li>Full Arm</li>
-                        <li>Half Arm</li>
-                        <li>Chest & Stomach</li>
-                        <li>Full Back</li>
-                        <li>Full Body Waxing</li>
                     </ul>
                 </div>
 
@@ -153,10 +153,6 @@
 
             <img class="img1 smallp" src="{{'/images/client3small.png'}}" />
             <img class="img1 largep" src="{{'/images/client3large.png'}}" />
-            {{--<img class="img2 smallp" src="{{'/images/client1small.jpg'}}" />
-            <img class="img2 largep" src="{{'/images/client1large.jpg'}}" />
-            <img class="img3 smallp" src="{{'/images/client2small.jpg'}}" />
-            <img class="img3 largep" src="{{'/images/client2large.jpg'}}" />--}}
 
         </div>
 

@@ -10680,7 +10680,7 @@ body {
 #appWrapper #waw h1 {
   margin-left: -20px;
   padding-right: 20px;
-  color: #B9C406 !important;
+  color: #D50B53;
 }
 
 #homeWrapper #waw .para,
@@ -10702,6 +10702,8 @@ body {
   width: auto;
   opacity: 0.6;
   z-index: -2;
+  -webkit-transform: rotate(-22.5deg);
+  transform: rotate(-22.5deg);
 }
 
 #homeWrapper #wwd,
