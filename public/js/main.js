@@ -46,19 +46,19 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
     triggerElement: ".para",
     triggerHook: "onCenter",
-    offset: 150,
+    offset: -150,
     reverse: false
 })
     .setTween(TweenMax.from(".para", 1, {y: 450, autoAlpha: 0.0, ease: Power1.easeIn}))
     .addTo(controller);
 
 new ScrollMagic.Scene({
-    triggerElement: "#bgimage",
+    triggerElement: "#bgimg",
     triggerHook: "onEnter",
     offset:-200,
     duration: window.innerHeight * 0.5
 })
-    .setTween(TweenMax.to("#bgimage", 3, {rotation: 30}))
+    .setTween(TweenMax.to("#bgimg", 3, {rotation: 30}))
     .addTo(controller);
 
 new ScrollMagic.Scene({
