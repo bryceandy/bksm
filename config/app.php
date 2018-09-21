@@ -151,6 +151,7 @@ return [
          * Package Service Providers...
          */
 
+        Spatie\Analytics\AnalyticsServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -175,6 +176,7 @@ return [
 
     'aliases' => [
 
+        'Analytics' => Spatie\Analytics\AnalyticsFacade::class,
         'App' => Illuminate\Support\Facades\App::class,
         'Artisan' => Illuminate\Support\Facades\Artisan::class,
         'Auth' => Illuminate\Support\Facades\Auth::class,

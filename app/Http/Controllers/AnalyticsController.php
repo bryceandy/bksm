@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 
-use Spatie\Analytics\Analytics;
+use Analytics;
 use Spatie\Analytics\Period;
 
 class AnalyticsController extends Controller
