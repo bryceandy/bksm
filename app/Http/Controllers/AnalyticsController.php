@@ -12,6 +12,6 @@ class AnalyticsController extends Controller
     {
         $analyticsData = Analytics::fetchVisitorsAndPageViews(Period::days(7));
 
-        return view('analytics', compact($analyticsData));
+        return view('analytics', compact('analyticsData'));
     }
 }
