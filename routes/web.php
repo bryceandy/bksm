@@ -28,4 +28,5 @@ Route::get('/about-and-contacts', function () {
     return view('about');
 });
 
+Route::get('/analytics', 'AnalyticsController@index');
 

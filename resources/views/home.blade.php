@@ -1,5 +1,18 @@
 @extends('template.app')
 
+@section('head')
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126204522-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-126204522-1');
+    </script>
+
+@endsection
+
 @section('title')
     BK Sports Massage | Your Road To Recovery
 @endsection
