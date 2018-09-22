@@ -6,18 +6,17 @@
 
 @section('content')
 
-<h1 class="text-center">Visitors and Page Views</h1>
+<h1 class="text-center" style="padding-top: 5vh;color: #824CA7;">Visitors and Page Views</h1>
 
 
     @foreach($analyticsData as $data)
 
         <ul class="list-group">
-            <li class="list-group-item">{{$data['date']}}</li>
-            <li class="list-group-item">{{$data['visitors']}}</li>
-            <li class="list-group-item">{{$data['pageViews']}}</li>
+            <li class="list-group-item" style="color: #D50B53;">{{$data['date']}}</li>
+            <li class="list-group-item" style="color: #A882C1;">{{$data['visitors']}}</li>
+            <li class="list-group-item" style="color: #B9C406;">{{$data['pageViews']}}</li>
         </ul>
         <hr>
     @endforeach
-
 
 @endsection
