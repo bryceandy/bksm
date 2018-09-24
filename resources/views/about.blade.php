@@ -1,7 +1,7 @@
 @extends('template.app')
 
 @section('title')
-    BK Sports Massage | Prices
+    BK Sports Massage | About
 @endsection
 
 @section('content')
