@@ -56,7 +56,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'info@bksportsmassage.com'),
+        'address' => env('MAIL_FROM_ADDRESS', 'brendakinariki@hotmail.com'),
         'name' => env('MAIL_FROM_NAME', 'Example'),
     ],
 
