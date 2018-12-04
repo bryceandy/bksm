@@ -29,7 +29,7 @@ class BookingEmail extends Mailable
      */
     public function build()
     {
-        return $this->from('booking@bksportsmassage.com', 'Booking')
+        return $this->from('info@bksportsmassage.com', 'Booking')
                     ->view('mails.book')
                     ->text('mails.book_plain');
     }
