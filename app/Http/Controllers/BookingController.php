@@ -27,7 +27,7 @@ class BookingController extends Controller
 
         try
         {
-            Mail::to('info@bksportsmassage.com')->send(new BookingEmail($objClient));
+            Mail::to('brendakinariki@hotmail.com')->send(new BookingEmail($objClient));
             return redirect('/booking')->with(['success' => 'Your Request was Successful!']);
         }
         catch(\Throwable $e)
