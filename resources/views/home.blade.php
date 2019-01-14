@@ -91,6 +91,7 @@
                 <div class="w-80 toggle3">
                     <ul>
                         <li>Facial Scrub</li>
+                        <li>Full Facial Treatment</li>
                         <li>Golden Mask</li>
                         <li>Black Mask</li>
                     </ul>
