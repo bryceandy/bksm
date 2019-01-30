@@ -445,6 +445,40 @@ body{
     background-color: $c2;
   }
 }
+
+//cursor
+
+*, *::before, *::after, html, body {
+  cursor: none;
+}
+
+.cursor-dot,
+.cursor-dot-outline {
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease-in-out,
+  transform 0.3s ease-in-out;
+  mix-blend-mode: difference;
+}
+
+.cursor-dot {
+  width: 6px;
+  height: 6px;
+  background-color: white;
+}
+
+.cursor-dot-outline {
+  width: 18px;
+  height: 18px;
+  border: 1px solid white;
+}
+
+//media queries
 @media screen and (min-width: 1012px){
   #photos{
     min-height: 120vh!important;
