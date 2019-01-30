@@ -10027,6 +10027,7 @@ body {
 
 .cursor-dot,
 .cursor-dot-outline {
+  z-index: 100000000000000020000;
   pointer-events: none;
   position: absolute;
   top: 50%;
@@ -10044,7 +10045,7 @@ body {
 .cursor-dot {
   width: 6px;
   height: 6px;
-  background-color: white;
+  background-color: #D50B53;
 }
 
 .cursor-dot-outline {
