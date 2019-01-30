@@ -10017,14 +10017,6 @@ body {
   background-color: #F4F3F4;
 }
 
-*,
-*::before,
-*::after,
-html,
-body {
-  cursor: none;
-}
-
 .cursor-dot,
 .cursor-dot-outline {
   z-index: 100000000000000020000;
