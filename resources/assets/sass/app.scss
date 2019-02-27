@@ -449,11 +449,12 @@ body{
 //cursor
 
 *, *::before, *::after, html, body {
-  cursor: none;
+  //cursor: none;
 }
 
 .cursor-dot,
 .cursor-dot-outline {
+  z-index: 99999999999999999999;
   pointer-events: none;
   position: absolute;
   top: 50%;
@@ -469,7 +470,7 @@ body{
 .cursor-dot {
   width: 6px;
   height: 6px;
-  background-color: white;
+  background-color: $c1;
 }
 
 .cursor-dot-outline {

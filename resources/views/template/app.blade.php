@@ -60,7 +60,7 @@
         $(function() {
 
             // Custom Easing
-            jQuery.scrollSpeed(100, 1100, 'easeOutCubic');
+            jQuery.scrollSpeed(100, 1101, 'easeOutCubic');
 
         });
 
@@ -69,6 +69,7 @@
 
 @yield('scripts')
 <script src="{{'js/main.js'}}"></script>
+<script src="{{'js/cursor.js'}}"></script>
 
 </body>
 </html>
