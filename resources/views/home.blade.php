@@ -54,15 +54,8 @@
                 <div class="w-80 toggle1">
                     <ul>
                         <li>Brazilian Bikini</li>
-                        <li>Under Arm</li>
                         <li>Full Leg</li>
                         <li>Half Leg</li>
-                        <li>Lip Waxing</li>
-                        <li>Cheek Waxing</li>
-                        <li>Chin</li>
-                        <li>Full Arm</li>
-                        <li>Half Arm</li>
-                        <li>Chest & Stomach</li>
                         <li>Full Back</li>
                         <li>Full Body Waxing</li>
                     </ul>
@@ -80,6 +73,7 @@
                         <li>Aromatherapy Massage</li>
                         <li>Swedish Massage</li>
                         <li>Thai Massage</li>
+                        <li>Couple Massage</li>
                         <li>Head Massage</li>
                         <li>Reflexology Massage</li>
                         <li>Body Scrub Treatment</li>
@@ -92,6 +86,7 @@
                     <ul>
                         <li>Facial Scrub</li>
                         <li>Full Facial Treatment</li>
+                        <li>Facial Steaming</li>
                         <li>Golden Mask</li>
                         <li>Black Mask</li>
                     </ul>
@@ -150,6 +145,10 @@
 
         </div>
 
+        <div id="map">
+
+        </div>
+
         <div id="photos">
 
             <img class="img1 smallp" src="{{'/images/client3small.png'}}" />
@@ -194,4 +193,20 @@
             $("#serviceGroup2").click();
         });
     </script>
+
+    <script>
+
+        var mymap = L.map('map', {
+            center: [-6.777252, 39.230949],
+            scrollWheelZoom: false,
+            zoom: 17
+        });
+        var tiles = new L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(mymap);
+
+        var marker = L.marker([-6.777252, 39.230949]).addTo(mymap);
+        marker.bindPopup("BK SportsMassage").openPopup();
+
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 @endsection
