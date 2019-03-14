@@ -327,7 +327,9 @@ body{
   }
   #map{
     grid-area: 6/1/7/2;
-    height: 50vh;
+    height: 80vh;
+    margin-bottom: 5%;
+    width: 97.5vw;
   }
   #photos{
     grid-area: 7/1/8/2;
