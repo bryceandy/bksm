@@ -65,8 +65,15 @@
             <div class="col-12">
                 <ul class="priceLists">
                     <li class="purp">Brazilian Bikini <span class="pin text-right">15,000</span></li>
+                    <li class="purp">Under Arm <span class="pin text-right">10,000</span></li>
                     <li class="purp">Full Leg <span class="pin text-right">20,000</span></li>
                     <li class="purp">Half Leg <span class="pin text-right">10,000</span></li>
+                    <li class="purp">Lip Waxing <span class="pin text-right">10,000</span></li>
+                    <li class="purp">Cheek Waxing <span class="pin text-right">10,000</span></li>
+                    <li class="purp">Chin Waxing <span class="pin text-right">10,000</span></li>
+                    <li class="purp">Full Arm <span class="pin text-right">20,000</span></li>
+                    <li class="purp">Half Arm <span class="pin text-right">10,000</span></li>
+                    <li class="purp">Chest & Stomach <span class="pin text-right">15,000</span></li>
                     <li class="purp">Full Back <span class="pin text-right">15,000</span></li>
                     <li class="purp">Full Body <span class="pin text-right">120,000</span></li>
                 </ul>

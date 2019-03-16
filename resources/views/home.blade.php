@@ -54,8 +54,15 @@
                 <div class="w-80 toggle1">
                     <ul>
                         <li>Brazilian Bikini</li>
+                        <li>Under Arm</li>
                         <li>Full Leg</li>
                         <li>Half Leg</li>
+                        <li>Lip Waxing</li>
+                        <li>Cheek Waxing</li>
+                        <li>Chin Waxing</li>
+                        <li>Full Arm</li>
+                        <li>Half Arm</li>
+                        <li>Chest & Stomach</li>
                         <li>Full Back</li>
                         <li>Full Body Waxing</li>
                     </ul>
