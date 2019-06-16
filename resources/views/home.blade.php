@@ -53,6 +53,7 @@
                 <button class="btn-lg sg1" id="serviceGroup1">Waxing Treatments <span id="sgicon1" class="sg1 float-right"><span class="plus first"></span><span class="plus"></span></span></button>
                 <div class="w-80 toggle1">
                     <ul>
+                        <li>Vajacial</li>
                         <li>Brazilian Bikini</li>
                         <li>Under Arm</li>
                         <li>Full Leg</li>

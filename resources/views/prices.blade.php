@@ -64,6 +64,7 @@
             <h2 class="text-left gree col-12">Waxing Treatments</h2>
             <div class="col-12">
                 <ul class="priceLists">
+                    <li class="purp">Vajacial <span class="pin text-right">30,000</span></li>
                     <li class="purp">Brazilian Bikini <span class="pin text-right">15,000</span></li>
                     <li class="purp">Under Arm <span class="pin text-right">10,000</span></li>
                     <li class="purp">Full Leg <span class="pin text-right">20,000</span></li>
