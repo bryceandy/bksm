@@ -13,7 +13,7 @@
                 <a href="/"><img src="{{'images/bklogo.png'}}" /></a>
             </div>
 
-            <a href="tel:+255786140987">CALL HERE <i class="fas fa-phone"></i></a>
+            <a href="tel:+255736000021">CALL HERE <i class="fas fa-phone"></i></a>
 
             <div class="nav-links">
                 <a href="/">Home</a>
@@ -40,7 +40,7 @@
                 info@bksportsmassage.com<br /><br />
 
                 Or call us:<br />
-                +255 786 140 987
+                +255 736 000 021
 
             </div><br />
 
